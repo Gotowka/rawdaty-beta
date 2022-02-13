@@ -1,0 +1,113 @@
+{
+  "name": "serwer",
+  "permissions": "NONE",
+  "permissions2": "NONE",
+  "restriction": "1",
+  "_id": "OIEcB",
+  "actions": [
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Poczekaj...",
+          "url": "",
+          "color": "RANDOM",
+          "timestamp": "false",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "",
+          "fields": [],
+          "author": "",
+          "authorUrl": "",
+          "authorIcon": "",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "ez",
+      "storage": "1",
+      "varName2": "kurna",
+      "name": "Send Message"
+    },
+    {
+      "time": "2",
+      "measurement": "1",
+      "name": "Wait"
+    },
+    {
+      "serverip": "${slashParams(\"ip\")}",
+      "serverport": "",
+      "game": "minecraft",
+      "info": "2",
+      "storage": "1",
+      "varName": "min",
+      "name": "Store Game Server Info"
+    },
+    {
+      "serverip": "${slashParams(\"ip\")}",
+      "serverport": "",
+      "game": "minecraft",
+      "info": "4",
+      "storage": "1",
+      "varName": "max",
+      "name": "Store Game Server Info"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "",
+          "url": "",
+          "color": "RANDOM",
+          "timestamp": "false",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Informacje na temat serwera **${slashParams(\"ip\")}**\n\nOsoby: ${tempVars(\"min\")}/${tempVars(\"max\")}",
+          "fields": [],
+          "author": "",
+          "authorUrl": "",
+          "authorIcon": "",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": true,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "1",
+      "editMessageVarName": "kurna",
+      "storage": "0",
+      "varName2": "edited",
+      "name": "Send Message"
+    }
+  ],
+  "comType": "4",
+  "description": "Informacje na temat serwera mc",
+  "parameters": [
+    {
+      "name": "ip",
+      "description": "Ip serwera",
+      "type": "STRING",
+      "required": true,
+      "choices": null
+    }
+  ]
+}
