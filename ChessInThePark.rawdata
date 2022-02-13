@@ -1,0 +1,45 @@
+{
+  "name": "yt",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "ViLLf",
+  "actions": [
+    {
+      "behavior": "1",
+      "interpretation": "0",
+      "code": "const Discord = require('discord.js');\nconst { DiscordTogether } = require('discord-together');\n\nclient.discordTogether = new DiscordTogether(client);\n\nif(member.voice.channel) {\nclient.discordTogether.createTogetherCode(member.voice.channelId, 'chess').then(invite => {\nActions.storeValue(invite.code, 1, \"GameInvite\", cache);\nActions.callNextAction(cache);\n});\n};",
+      "storage": "0",
+      "varName": "GameInvite",
+      "name": "Run Script"
+    },
+    {
+      "title": "YouTube Togeter",
+      "author": "",
+      "color": "RANDOM",
+      "timestamp": "false",
+      "url": "",
+      "authorIcon": "",
+      "imageUrl": "",
+      "thumbUrl": "https://yt3.ggpht.com/ytc/AKedOLRTTAk-o_QYPOVmW2lXilRhd-VmBBol-IqrIM6U=s900-c-k-c0x00ffffff-no-rj",
+      "storage": "1",
+      "varName": "em1",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "em1",
+      "message": "Aby dołączyć kliknij w [dołącz](${tempVars(\"GameInvite\")}) ${tempVars(\"GameInvite\")}",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "em1",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "name": "Send Embed Message"
+    }
+  ],
+  "comType": "0"
+}
