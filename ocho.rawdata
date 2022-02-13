@@ -28,7 +28,7 @@
     {
       "storage": "1",
       "varName": "em1",
-      "message": "Aby dołączyć kliknij w [dołącz](${tempVars(\"GameInvite\")})",
+      "message": "Aby grać Ocho together kliknij [dołącz](${tempVars(\"GameInvite\")})",
       "name": "Set Embed Description"
     },
     {
