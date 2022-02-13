@@ -1,0 +1,163 @@
+{
+  "name": "gracz1",
+  "permissions": "NONE",
+  "permissions2": "NONE",
+  "restriction": "1",
+  "_id": "VzZFx",
+  "actions": [
+    {
+      "member": "5",
+      "varName": "Osoba",
+      "info": "22",
+      "storage": "1",
+      "varName2": "test1",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "5",
+      "varName": "Osoba",
+      "info": "24",
+      "storage": "1",
+      "varName2": "test2",
+      "name": "Store Member Info"
+    },
+    {
+      "date": "${tempVars(\"test1\")}",
+      "info": "5",
+      "storage": "1",
+      "varName": "year",
+      "name": "Store Date Info"
+    },
+    {
+      "date": "${tempVars(\"test1\")}",
+      "info": "8",
+      "storage": "1",
+      "varName": "month",
+      "name": "Store Date Info"
+    },
+    {
+      "date": "${tempVars(\"test1\")}",
+      "info": "4",
+      "storage": "1",
+      "varName": "day",
+      "name": "Store Date Info"
+    },
+    {
+      "date": "${tempVars(\"test2\")}",
+      "info": "5",
+      "storage": "1",
+      "varName": "year1",
+      "name": "Store Date Info"
+    },
+    {
+      "date": "${tempVars(\"test2\")}",
+      "info": "8",
+      "storage": "1",
+      "varName": "month1",
+      "name": "Store Date Info"
+    },
+    {
+      "date": "${tempVars(\"test2\")}",
+      "info": "4",
+      "storage": "1",
+      "varName": "day1",
+      "name": "Store Date Info"
+    },
+    {
+      "member": "5",
+      "varName": "Osoba",
+      "info": "1",
+      "storage": "1",
+      "varName2": "id",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "5",
+      "varName": "Osoba",
+      "info": "2",
+      "storage": "1",
+      "varName2": "nazwa",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "5",
+      "varName": "Osoba",
+      "info": "15",
+      "storage": "1",
+      "varName2": "status",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "5",
+      "varName": "Osoba",
+      "info": "7",
+      "storage": "1",
+      "varName2": "rola",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "5",
+      "varName": "Osoba",
+      "info": "20",
+      "storage": "1",
+      "varName2": "discriminator",
+      "name": "Store Member Info"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "",
+          "url": "",
+          "color": "RANDOM",
+          "timestamp": "false",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Informacje o graczu ${tempVars(\"nazwa\")} (${slashParams(\"Osoba\")})\n\n${customEmoji(\"data\")} Konto stworzone: **${tempVars(\"day\")}.${tempVars(\"month\")}.${tempVars(\"year\")}**\n${customEmoji(\"data\")} Dołączono na dc: **${tempVars(\"day1\")}.${tempVars(\"month1\")}.${tempVars(\"year1\")}**\n\n${customEmoji(\"pytanie\")} Id: **${tempVars(\"id\")}**\n${customEmoji(\"tag\")} Tag: **${tempVars(\"discriminator\")}**\n${customEmoji(\"game\")} Status: **${tempVars(\"status\")}**\n${customEmoji(\"role\")} Ranga: **${tempVars(\"rola\")}**\n\n\n",
+          "fields": [],
+          "author": "",
+          "authorUrl": "",
+          "authorIcon": "",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "eziak",
+      "name": "Send Message"
+    },
+    {
+      "comment": "Do komendy użyłem emotek które znajdziesz poniżej!",
+      "color": "#000000",
+      "name": "Comment"
+    },
+    {
+      "comment": "https://www.mediafire.com/file/cl8a5ommmbzzpya/emotki.rar/file",
+      "color": "#d60000",
+      "name": "Comment"
+    }
+  ],
+  "comType": "4",
+  "description": "Informacje na temat osoby",
+  "parameters": [
+    {
+      "name": "Osoba",
+      "description": "Informacje na temat użytkownik ",
+      "type": "USER",
+      "required": true,
+      "choices": null
+    }
+  ]
+}
