@@ -1,8 +1,8 @@
 {
-  "name": "yt",
+  "name": "together",
   "permissions": "NONE",
   "restriction": "1",
-  "_id": "ViLLf",
+  "_id": "pDNvX",
   "actions": [
     {
       "behavior": "1",
@@ -13,14 +13,14 @@
       "name": "Run Script"
     },
     {
-      "title": "YouTube Togeter",
+      "title": "Chess In The Park",
       "author": "",
       "color": "RANDOM",
       "timestamp": "false",
       "url": "",
       "authorIcon": "",
       "imageUrl": "",
-      "thumbUrl": "https://yt3.ggpht.com/ytc/AKedOLRTTAk-o_QYPOVmW2lXilRhd-VmBBol-IqrIM6U=s900-c-k-c0x00ffffff-no-rj",
+      "thumbUrl": "=",
       "storage": "1",
       "varName": "em1",
       "name": "Create Embed Message"
