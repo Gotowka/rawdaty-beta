@@ -1,0 +1,169 @@
+{
+  "name": "status",
+  "permissions": "NONE",
+  "permissions2": "NONE",
+  "restriction": "1",
+  "_id": "DtBZq",
+  "actions": [
+    {
+      "storage": "4",
+      "varName": "Tryb",
+      "comparison": "5",
+      "value": "'playing'",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "6"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "4",
+      "varName": "Tryb",
+      "comparison": "5",
+      "value": "'listening'",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "9"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "4",
+      "varName": "Tryb",
+      "comparison": "5",
+      "value": "'watching'",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "12"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "❌ Nie odnaleziono trybu [playing,listening,watching]",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [],
+      "reply": true,
+      "ephemeral": true,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "gameName": "${slashParams(\"Status\")}",
+      "gameLink": "",
+      "activityType": "PLAYING",
+      "name": "Set Bot Game"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "✅ Pomyślnie ustawiono!",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [],
+      "reply": true,
+      "ephemeral": true,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "gameName": "${slashParams(\"Status\")}",
+      "gameLink": "",
+      "activityType": "LISTENING",
+      "name": "Set Bot Game"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "✅ Pomyślnie ustawiono!",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [],
+      "reply": true,
+      "ephemeral": true,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "gameName": "${slashParams(\"Status\")}",
+      "gameLink": "",
+      "activityType": "WATCHING",
+      "name": "Set Bot Game"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "✅ Pomyślnie ustawiono!",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [],
+      "reply": true,
+      "ephemeral": true,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    }
+  ],
+  "comType": "4",
+  "description": "Ustaw status bota",
+  "parameters": [
+    {
+      "name": "Status",
+      "description": "Ustaw status bota!",
+      "type": "STRING",
+      "required": true,
+      "choices": null
+    },
+    {
+      "name": "Tryb",
+      "description": "Tryb statusu",
+      "type": "STRING",
+      "required": true,
+      "choices": null
+    }
+  ]
+}
