@@ -1,0 +1,113 @@
+{
+  "name": "Weryfikacja",
+  "permissions": "NONE",
+  "permissions2": "NONE",
+  "restriction": "0",
+  "_id": "CDyYT",
+  "actions": [
+    {
+      "storage": "0",
+      "varName": "",
+      "reason": "Weryfikacja wiadomosc",
+      "name": "Delete Message"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [
+        {
+          "name": "Weryfikacja",
+          "type": "SUCCESS",
+          "id": "msg-button-deb49a8",
+          "row": "1",
+          "url": "",
+          "emoji": "✅",
+          "mode": "PERSISTENT",
+          "time": "",
+          "actions": [
+            {
+              "comment": "Zmień id rangi ",
+              "color": "#e60000",
+              "name": "Comment"
+            },
+            {
+              "channel": "0",
+              "varName": "",
+              "message": "",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [
+                {
+                  "title": "",
+                  "url": "",
+                  "color": "#00ff1e",
+                  "timestamp": "false",
+                  "imageUrl": "",
+                  "thumbUrl": "",
+                  "description": "```✅ Zostałeś pomyślnie zweryfikowany!```",
+                  "fields": [],
+                  "author": "",
+                  "authorUrl": "",
+                  "authorIcon": "",
+                  "footerText": "",
+                  "footerIconUrl": ""
+                }
+              ],
+              "reply": true,
+              "ephemeral": true,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "0",
+              "varName2": "",
+              "name": "Send Message"
+            },
+            {
+              "member": "1",
+              "varName2": "",
+              "role": "101",
+              "varName": "IDRANGIPRZYWERYFIKACJI",
+              "reason": "Weryfikacja",
+              "name": "Add Member Role"
+            }
+          ]
+        }
+      ],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "",
+          "url": "",
+          "color": "GREEN",
+          "timestamp": "false",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "By się zweryfikować kliknij przycisk poniżej",
+          "fields": [],
+          "author": "",
+          "authorUrl": "",
+          "authorIcon": "",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": false,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    }
+  ],
+  "comType": "0",
+  "description": "Wiadomosc z weryfikacją"
+}
