@@ -1,0 +1,399 @@
+{
+  "name": "ticket",
+  "permissions": "NONE",
+  "permissions2": "NONE",
+  "restriction": "1",
+  "_id": "UYYZg",
+  "actions": [
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [
+        {
+          "name": "Ticket",
+          "type": "DANGER",
+          "id": "msg-button-74bb3cc",
+          "row": "1",
+          "url": "",
+          "emoji": "",
+          "mode": "PERSISTENT",
+          "time": "",
+          "actions": [
+            {
+              "info": "1",
+              "find": "dontspam",
+              "storage": "1",
+              "varName": "antyspamticket",
+              "name": "Find Role"
+            },
+            {
+              "storage": "1",
+              "varName": "antyspamticket",
+              "comparison": "0",
+              "value": "",
+              "branch": {
+                "iftrue": "2",
+                "iffalse": "0",
+                "iftrueVal": "10"
+              },
+              "name": "Check Variable"
+            },
+            {
+              "channel": "0",
+              "varName": "",
+              "message": "Serwer nie posiadał rangi wymaganej do ticketów. Tworze...",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [],
+              "reply": true,
+              "ephemeral": false,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "1",
+              "varName2": "doedytowania",
+              "name": "Send Message"
+            },
+            {
+              "time": "3",
+              "measurement": "1",
+              "name": "Wait"
+            },
+            {
+              "roleName": "dontspam",
+              "hoist": "false",
+              "mentionable": "true",
+              "color": "",
+              "position": "1",
+              "storage": "1",
+              "varName": "rana",
+              "reason": "",
+              "name": "Create Role"
+            },
+            {
+              "channel": "0",
+              "varName": "",
+              "message": "Została ranga stworzona kliknij ponownie! (${tempVars(\"rana\")})",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [],
+              "reply": true,
+              "ephemeral": false,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "1",
+              "editMessageVarName": "doedytowania",
+              "storage": "0",
+              "varName2": "",
+              "name": "Send Message"
+            },
+            {
+              "time": "3",
+              "measurement": "1",
+              "name": "Wait"
+            },
+            {
+              "storage": "1",
+              "varName": "doedytowania",
+              "reason": "",
+              "name": "Delete Message"
+            },
+            {
+              "name": "End Action Sequence"
+            },
+            {
+              "member": "1",
+              "varName": "",
+              "role": "100",
+              "varName2": "dontspam",
+              "branch": {
+                "iftrue": "0",
+                "iffalse": "3",
+                "iffalseVal": "2"
+              },
+              "name": "Check If Member has Role"
+            },
+            {
+              "channel": "0",
+              "varName": "",
+              "message": "Posiadasz już ticket!",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [],
+              "reply": true,
+              "ephemeral": true,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "0",
+              "varName2": "",
+              "name": "Send Message"
+            },
+            {
+              "name": "End Action Sequence"
+            },
+            {
+              "member": "1",
+              "varName2": "",
+              "role": "100",
+              "varName": "dontspam",
+              "reason": "",
+              "name": "Add Member Role"
+            },
+            {
+              "member": "1",
+              "varName": "",
+              "info": "2",
+              "storage": "1",
+              "varName2": "user",
+              "name": "Store Member Info"
+            },
+            {
+              "channelName": "ticket-${tempVars(\"user\")}",
+              "topic": "",
+              "position": "",
+              "storage": "1",
+              "varName": "ticket",
+              "categoryID": "",
+              "reason": "",
+              "name": "Create Text Channel"
+            },
+            {
+              "storage": "3",
+              "varName": "ticket",
+              "permission": "VIEW_CHANNEL",
+              "state": "1",
+              "reason": "",
+              "name": "Set Channel Permissions"
+            },
+            {
+              "channel": "0",
+              "varName": "",
+              "message": "",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [
+                {
+                  "title": "Ticket",
+                  "url": "",
+                  "color": "",
+                  "timestamp": "false",
+                  "imageUrl": "",
+                  "thumbUrl": "",
+                  "description": "Twój ticket ${tempVars(\"ticket\")}",
+                  "fields": [],
+                  "author": "",
+                  "authorUrl": "",
+                  "authorIcon": "",
+                  "footerText": "",
+                  "footerIconUrl": ""
+                }
+              ],
+              "reply": true,
+              "ephemeral": true,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "1",
+              "varName2": "edit",
+              "name": "Send Message"
+            },
+            {
+              "channel": "3",
+              "varName": "ticket",
+              "member": "1",
+              "varName2": "",
+              "permission": "VIEW_CHANNEL",
+              "state": "0",
+              "reason": "",
+              "name": "Set Member Channel Perms"
+            },
+            {
+              "channel": "5",
+              "varName": "ticket",
+              "message": "",
+              "buttons": [
+                {
+                  "name": "Zamknij",
+                  "type": "DANGER",
+                  "id": "msg-button-9047ab0",
+                  "row": "1",
+                  "url": "",
+                  "emoji": "",
+                  "mode": "PERSISTENT",
+                  "time": "",
+                  "actions": [
+                    {
+                      "member": "1",
+                      "varName": "",
+                      "permission": "MANAGE_CHANNELS",
+                      "branch": {
+                        "iftrue": "3",
+                        "iffalse": "0",
+                        "iftrueVal": "2"
+                      },
+                      "name": "Check Member Permissions"
+                    },
+                    {
+                      "channel": "0",
+                      "varName": "",
+                      "message": "Nie posiadasz permisji!",
+                      "buttons": [],
+                      "selectMenus": [],
+                      "attachments": [],
+                      "embeds": [],
+                      "reply": true,
+                      "ephemeral": true,
+                      "tts": false,
+                      "overwrite": false,
+                      "dontSend": false,
+                      "editMessage": "0",
+                      "editMessageVarName": "",
+                      "storage": "0",
+                      "varName2": "",
+                      "name": "Send Message"
+                    },
+                    {
+                      "name": "End Action Sequence"
+                    },
+                    {
+                      "channel": "0",
+                      "varName": "",
+                      "message": "Ticket zostanie zamknięty za **5**sekund",
+                      "buttons": [],
+                      "selectMenus": [],
+                      "attachments": [],
+                      "embeds": [],
+                      "reply": true,
+                      "ephemeral": true,
+                      "tts": false,
+                      "overwrite": false,
+                      "dontSend": false,
+                      "editMessage": "0",
+                      "editMessageVarName": "",
+                      "storage": "0",
+                      "varName2": "",
+                      "name": "Send Message"
+                    },
+                    {
+                      "time": "5",
+                      "measurement": "1",
+                      "name": "Wait"
+                    },
+                    {
+                      "storage": "0",
+                      "varName": "",
+                      "reason": "",
+                      "name": "Delete Channel"
+                    },
+                    {
+                      "channel": "1",
+                      "varName": "",
+                      "message": "nie zapomnij zabrać rangi osobie z ticketa rangi dontspam!",
+                      "buttons": [],
+                      "selectMenus": [],
+                      "attachments": [],
+                      "embeds": [],
+                      "reply": true,
+                      "ephemeral": false,
+                      "tts": false,
+                      "overwrite": false,
+                      "dontSend": false,
+                      "editMessage": "0",
+                      "editMessageVarName": "",
+                      "storage": "0",
+                      "varName2": "",
+                      "name": "Send Message"
+                    }
+                  ]
+                }
+              ],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [
+                {
+                  "title": "Ticket",
+                  "url": "",
+                  "color": "RANDOM",
+                  "timestamp": "false",
+                  "imageUrl": "",
+                  "thumbUrl": "",
+                  "description": "Opis błąd znaleziony przez ciebie!",
+                  "fields": [],
+                  "author": "",
+                  "authorUrl": "",
+                  "authorIcon": "",
+                  "footerText": "",
+                  "footerIconUrl": ""
+                }
+              ],
+              "reply": true,
+              "ephemeral": false,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "0",
+              "varName2": "",
+              "name": "Send Message"
+            },
+            {
+              "channel": "3",
+              "varName": "ticket",
+              "role": "101",
+              "varName2": "IDRANGIMODERACJI",
+              "permission": "VIEW_CHANNEL",
+              "state": "0",
+              "reason": "",
+              "name": "Set Role Channel Perms"
+            }
+          ]
+        }
+      ],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Ticket",
+          "url": "",
+          "color": "RANDOM",
+          "timestamp": "false",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Aby zgłosic błąd stwórz ticket klikając w przycisk!",
+          "fields": [],
+          "author": "",
+          "authorUrl": "",
+          "authorIcon": "",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    }
+  ],
+  "comType": "0",
+  "description": "TworzenieTicketów"
+}
