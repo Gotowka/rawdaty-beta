@@ -1,0 +1,106 @@
+{
+  "name": "betrayal",
+  "permissions": "NONE",
+  "restriction": "0",
+  "_id": "zZuqV",
+  "actions": [
+    {
+      "server": "0",
+      "varName": "",
+      "info": "44",
+      "storage": "1",
+      "varName2": "boostcount",
+      "name": "Store Server Info"
+    },
+    {
+      "storage": "1",
+      "varName": "boostcount",
+      "comparison": "3",
+      "value": "1",
+      "branch": {
+        "iftrue": "0",
+        "iffalse": "2",
+        "iffalseVal": "5"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": ":x: Serwer musi posiadać min **1 Boosta!**",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "behavior": "1",
+      "interpretation": "0",
+      "code": "const Discord = require('discord.js');\nconst { DiscordTogether } = require('discord-together');\n\nclient.discordTogether = new DiscordTogether(client);\n\nif(member.voice.channel) {\nclient.discordTogether.createTogetherCode(member.voice.channelId, 'betrayal').then(invite => {\nActions.storeValue(invite.code, 1, \"GameInvite\", cache);\nActions.callNextAction(cache);\n});\n};",
+      "storage": "0",
+      "varName": "GameInvite",
+      "name": "Run Script"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [
+        {
+          "name": "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤDolaczㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
+          "type": "LINK",
+          "id": "msg-button-748ba68",
+          "row": "",
+          "url": "${tempVars(\"GameInvite\")}",
+          "emoji": "💣",
+          "mode": "PERSISTENT",
+          "time": "",
+          "actions": []
+        }
+      ],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Betrayal - Together",
+          "url": "",
+          "color": "#fac941",
+          "timestamp": "false",
+          "imageUrl": "",
+          "thumbUrl": "https://cdn.discordapp.com/attachments/923679845291008001/942884777499955220/about.png",
+          "description": "By zagrać **Betrayal - Together** kliknij przycisk poniżej!",
+          "fields": [],
+          "author": "",
+          "authorUrl": "",
+          "authorIcon": "",
+          "footerText": "Komenda jest dla każdego pod [slash]betrayal",
+          "footerIconUrl": "https://cdn.discordapp.com/attachments/923679845291008001/942884777499955220/about.png"
+        }
+      ],
+      "reply": false,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    }
+  ],
+  "comType": "4"
+}
