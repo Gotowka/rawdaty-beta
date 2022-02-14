@@ -1,7 +1,7 @@
 {
   "name": "youtube",
-  "permissions": "ADMINISTRATOR",
-  "restriction": "4",
+  "permissions": "NONE",
+  "restriction": "0",
   "_id": "iGZFZ",
   "actions": [
     {
