@@ -1,8 +1,8 @@
 {
   "name": "youtube",
-  "permissions": "NONE",
-  "restriction": "0",
-  "_id": "JVjvp",
+  "permissions": "ADMINISTRATOR",
+  "restriction": "4",
+  "_id": "iGZFZ",
   "actions": [
     {
       "behavior": "1",
@@ -37,9 +37,9 @@
       "message": "",
       "buttons": [
         {
-          "name": "Dolacz",
+          "name": "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤDolaczㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
           "type": "LINK",
-          "id": "msg-button-6cf097a",
+          "id": "msg-button-f5d9791",
           "row": "",
           "url": "${tempVars(\"GameInvite\")}",
           "emoji": "🎞️",
