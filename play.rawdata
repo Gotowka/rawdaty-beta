@@ -2,9 +2,366 @@
   "name": "Play",
   "permissions": "NONE",
   "permissions2": "NONE",
-  "restriction": "4",
-  "_id": "REcwb",
+  "restriction": "1",
+  "_id": "bdSji",
   "actions": [
+    {
+      "server": "0",
+      "varName": "",
+      "info": "1",
+      "storage": "1",
+      "varName2": "id",
+      "name": "Store Server Info"
+    },
+    {
+      "storage": "1",
+      "varName": "id",
+      "comparison": "1",
+      "value": "'937788877970763847'",
+      "branch": {
+        "iftrue": "3",
+        "iffalse": "0",
+        "iftrueVal": "2"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Zgłoś się do administratora!",
+          "url": "https://discord.gg/v6gtNwpmDy",
+          "color": "#FF0000",
+          "timestamp": "false",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "${globalVars(\"nie\")} [Error](https://discord.gg/v6gtNwpmDy): **Server has not enabled the module**",
+          "fields": [],
+          "author": "",
+          "authorUrl": "",
+          "authorIcon": "",
+          "footerText": "©️ ${tempVars(\"server.name\")}",
+          "footerIconUrl": "${tempVars(\"server.photo\")}"
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "storage": "4",
+      "varName": "Tytul",
+      "comparison": "5",
+      "value": "'a'",
+      "branch": {
+        "iftrue": "3",
+        "iffalse": "0",
+        "iftrueVal": "2"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "4",
+      "varName": "Url",
+      "comparison": "5",
+      "value": "'https://'",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "1",
+        "iftrueVal": "20"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "name": "Join Voice Channel"
+    },
+    {
+      "type": "0",
+      "input": "${slashParams(\"Tytul\")}",
+      "info0": "1",
+      "info1": "1",
+      "apikey": "",
+      "results": "1",
+      "storage": "1",
+      "varName": "musicsearch",
+      "name": "YouTube Search"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "${tempVars(\"musicsearch\")}",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "url": "${tempVars(\"musicsearch\")}",
+      "seek": "1",
+      "volume": "",
+      "bitrate": "200",
+      "type": "1",
+      "name": "Play YouTube Video"
+    },
+    {
+      "branch": {
+        "iftrue": "0",
+        "iffalse": "99",
+        "iffalseActions": [
+          {
+            "channel": "0",
+            "varName": "",
+            "message": "Niestety, Zgłoś błąd do technika!",
+            "buttons": [],
+            "selectMenus": [],
+            "attachments": [],
+            "embeds": [],
+            "reply": true,
+            "ephemeral": true,
+            "tts": false,
+            "overwrite": false,
+            "dontSend": false,
+            "editMessage": "0",
+            "editMessageVarName": "",
+            "storage": "0",
+            "varName2": "",
+            "name": "Send Message"
+          }
+        ]
+      },
+      "name": "Check is Bot in Voice Channel"
+    },
+    {
+      "member": "1",
+      "varName": "",
+      "info": "1",
+      "storage": "1",
+      "varName2": "id",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "1",
+      "varName": "",
+      "info": "16",
+      "storage": "1",
+      "varName2": "avatar",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "1",
+      "varName": "",
+      "info": "21",
+      "storage": "1",
+      "varName2": "username",
+      "name": "Store Member Info"
+    },
+    {
+      "video": "${tempVars(\"musicsearch\")}",
+      "info": "2",
+      "storage": "1",
+      "varName": "title",
+      "name": "Store YouTube Info"
+    },
+    {
+      "video": "${tempVars(\"musicsearch\")}",
+      "info": "4",
+      "storage": "1",
+      "varName": "author",
+      "name": "Store YouTube Info"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [
+        {
+          "name": "ㅤㅤㅤWznówㅤㅤㅤ",
+          "type": "SUCCESS",
+          "id": "msg-button-68e6b31",
+          "row": "",
+          "url": "",
+          "emoji": "",
+          "mode": "MULTI",
+          "time": "",
+          "actions": [
+            {
+              "action": "2",
+              "name": "Control Audio"
+            },
+            {
+              "channel": "0",
+              "varName": "",
+              "message": "Pomyślnie wznowiono utwór!",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [],
+              "reply": true,
+              "ephemeral": true,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "0",
+              "varName2": "",
+              "name": "Send Message"
+            }
+          ]
+        },
+        {
+          "name": "ㅤㅤㅤWstrzymajㅤㅤㅤ",
+          "type": "SECONDARY",
+          "id": "msg-button-d5c0924",
+          "row": "",
+          "url": "",
+          "emoji": "",
+          "mode": "MULTIPERSONAL",
+          "time": "300000",
+          "actions": [
+            {
+              "action": "1",
+              "name": "Control Audio"
+            },
+            {
+              "channel": "0",
+              "varName": "",
+              "message": "Pomyślnie wstrzymano utwór!",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [],
+              "reply": true,
+              "ephemeral": true,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "0",
+              "varName2": "",
+              "name": "Send Message"
+            }
+          ]
+        },
+        {
+          "name": "ㅤㅤㅤWyłączㅤㅤㅤ",
+          "type": "DANGER",
+          "id": "msg-button-43716d1",
+          "row": "",
+          "url": "",
+          "emoji": "",
+          "mode": "MULTIPERSONAL",
+          "time": "300000",
+          "actions": [
+            {
+              "action": "0",
+              "name": "Control Audio"
+            },
+            {
+              "channel": "0",
+              "varName": "",
+              "message": "Poprawnie wyłączono utwór!",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [],
+              "reply": true,
+              "ephemeral": true,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "0",
+              "varName2": "",
+              "name": "Send Message"
+            },
+            {
+              "name": "Leave Voice Channel"
+            }
+          ]
+        }
+      ],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "",
+          "url": "",
+          "color": "#5864f2",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "${tempVars(\"avatar\")}",
+          "description": "```\nPuszczam twój ulubiony utwór. Poczekaj chwileczkę.\n\nPoniżej znajdziesz informację na temat wybranej muzyki:\n```",
+          "fields": [
+            {
+              "name": "● Wykonawca:",
+              "value": "${tempVars(\"author\")}",
+              "inline": "true"
+            },
+            {
+              "name": "● Tytuł:",
+              "value": "${tempVars(\"title\")}",
+              "inline": "true"
+            },
+            {
+              "name": "● Link:",
+              "value": "test",
+              "inline": "true"
+            }
+          ],
+          "author": "",
+          "authorUrl": "",
+          "authorIcon": "",
+          "footerText": "${tempVars(\"username\")} (${tempVars(\"id\")})",
+          "footerIconUrl": "${tempVars(\"avatar\")}"
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "embed-muzyka1",
+      "storage": "0",
+      "varName2": "embed-muzyka",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
     {
       "channel": "0",
       "varName": "",
@@ -12,7 +369,7 @@
     },
     {
       "url": "${slashParams(\"Url\")}",
-      "seek": "",
+      "seek": "0",
       "volume": "",
       "bitrate": "500",
       "type": "1",
@@ -127,12 +484,12 @@
         {
           "name": "ㅤㅤㅤWznówㅤㅤㅤ",
           "type": "SUCCESS",
-          "id": "msg-button-de9045b",
+          "id": "msg-button-f6cbb7f",
           "row": "",
           "url": "",
           "emoji": "",
-          "mode": "MULTI",
-          "time": "",
+          "mode": "MULTIPERSONAL",
+          "time": "200000",
           "actions": [
             {
               "action": "2",
@@ -141,7 +498,7 @@
             {
               "channel": "0",
               "varName": "",
-              "message": "Pomyślnie wznowiono utwór!",
+              "message": "Gram!",
               "buttons": [],
               "selectMenus": [],
               "attachments": [],
@@ -161,13 +518,13 @@
         },
         {
           "name": "ㅤㅤㅤWstrzymajㅤㅤㅤ",
-          "type": "SECONDARY",
-          "id": "msg-button-ef815da",
+          "type": "PRIMARY",
+          "id": "msg-button-f412fdd",
           "row": "",
           "url": "",
           "emoji": "",
           "mode": "MULTIPERSONAL",
-          "time": "300000",
+          "time": "200000",
           "actions": [
             {
               "action": "1",
@@ -197,12 +554,12 @@
         {
           "name": "ㅤㅤㅤWyłączㅤㅤㅤ",
           "type": "DANGER",
-          "id": "msg-button-0ac1946",
+          "id": "msg-button-2885738",
           "row": "",
           "url": "",
           "emoji": "",
           "mode": "MULTIPERSONAL",
-          "time": "300000",
+          "time": "200000",
           "actions": [
             {
               "action": "0",
@@ -211,7 +568,7 @@
             {
               "channel": "0",
               "varName": "",
-              "message": "Poprawnie wyłączono utwór!",
+              "message": "Wyłączono utwór!",
               "buttons": [],
               "selectMenus": [],
               "attachments": [],
@@ -265,7 +622,7 @@
           "authorUrl": "",
           "authorIcon": "",
           "footerText": "${tempVars(\"username\")} (${tempVars(\"id\")})",
-          "footerIconUrl": "${tempVars(\"avatar\")}"
+          "footerIconUrl": ""
         }
       ],
       "reply": true,
@@ -284,10 +641,17 @@
   "description": "Puszczaj muzykę!",
   "parameters": [
     {
+      "name": "Tytul",
+      "description": "Tytuł piosenki którą mam dla ciebie zagrać",
+      "type": "STRING",
+      "required": false,
+      "choices": null
+    },
+    {
       "name": "Url",
       "description": "Url muzyki którą mam dla ciebie zagrać!",
       "type": "STRING",
-      "required": true,
+      "required": false,
       "choices": null
     }
   ]
