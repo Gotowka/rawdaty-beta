@@ -3,7 +3,7 @@
   "permissions": "NONE",
   "permissions2": "NONE",
   "restriction": "1",
-  "_id": "fKKUQ",
+  "_id": "QSHxj",
   "actions": [
     {
       "message": "0",
@@ -73,7 +73,7 @@
           "timestamp": "false",
           "imageUrl": "",
           "thumbUrl": "",
-          "description": "${globalVars(\"time\")} ${member}, `Zostaje wyciszony`\n\n${globalVars(\"data\")} Czas,  `1`h\n\n${globalVars(\"reason\")} Powod, `Anty - Ping (everyone/here)`( Nie próbuj )!",
+          "description": "${member}, `Zostaje wyciszony`\n\nCzas,  `1`h\n\nPowod, `Anty - Ping (everyone/here)`( Nie próbuj )!",
           "fields": [],
           "author": "",
           "authorUrl": "",
