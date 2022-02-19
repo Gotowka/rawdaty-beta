@@ -1,9 +1,9 @@
 {
-  "name": "antyping",
+  "name": "dontping",
   "permissions": "NONE",
   "permissions2": "NONE",
   "restriction": "1",
-  "_id": "QSHxj",
+  "_id": "iHmUt",
   "actions": [
     {
       "message": "0",
@@ -17,10 +17,11 @@
       "storage": "1",
       "varName": "txt",
       "comparison": "5",
-      "value": "'@everyone'",
+      "value": "@everyone",
       "branch": {
-        "iftrue": "0",
-        "iffalse": "1"
+        "iftrue": "3",
+        "iffalse": "0",
+        "iftrueVal": "1"
       },
       "name": "Check Variable"
     },
@@ -28,7 +29,7 @@
       "storage": "1",
       "varName": "txt",
       "comparison": "5",
-      "value": "'@here'",
+      "value": "@here",
       "branch": {
         "iftrue": "0",
         "iffalse": "1"
