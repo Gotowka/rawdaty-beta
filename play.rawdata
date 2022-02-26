@@ -3,66 +3,8 @@
   "permissions": "NONE",
   "permissions2": "NONE",
   "restriction": "1",
-  "_id": "bdSji",
+  "_id": "RKaxI",
   "actions": [
-    {
-      "server": "0",
-      "varName": "",
-      "info": "1",
-      "storage": "1",
-      "varName2": "id",
-      "name": "Store Server Info"
-    },
-    {
-      "storage": "1",
-      "varName": "id",
-      "comparison": "1",
-      "value": "'937788877970763847'",
-      "branch": {
-        "iftrue": "3",
-        "iffalse": "0",
-        "iftrueVal": "2"
-      },
-      "name": "Check Variable"
-    },
-    {
-      "channel": "0",
-      "varName": "",
-      "message": "",
-      "buttons": [],
-      "selectMenus": [],
-      "attachments": [],
-      "embeds": [
-        {
-          "title": "Zgłoś się do administratora!",
-          "url": "https://discord.gg/v6gtNwpmDy",
-          "color": "#FF0000",
-          "timestamp": "false",
-          "imageUrl": "",
-          "thumbUrl": "",
-          "description": "${globalVars(\"nie\")} [Error](https://discord.gg/v6gtNwpmDy): **Server has not enabled the module**",
-          "fields": [],
-          "author": "",
-          "authorUrl": "",
-          "authorIcon": "",
-          "footerText": "©️ ${tempVars(\"server.name\")}",
-          "footerIconUrl": "${tempVars(\"server.photo\")}"
-        }
-      ],
-      "reply": true,
-      "ephemeral": false,
-      "tts": false,
-      "overwrite": false,
-      "dontSend": false,
-      "editMessage": "0",
-      "editMessageVarName": "",
-      "storage": "0",
-      "varName2": "",
-      "name": "Send Message"
-    },
-    {
-      "name": "End Action Sequence"
-    },
     {
       "storage": "4",
       "varName": "Tytul",
@@ -83,7 +25,7 @@
       "branch": {
         "iftrue": "2",
         "iffalse": "1",
-        "iftrueVal": "20"
+        "iftrueVal": "16"
       },
       "name": "Check Variable"
     },
@@ -463,6 +405,33 @@
       "name": "Send Message"
     },
     {
+      "channel": "0",
+      "varName": "",
+      "message": "${slashParams(\"Url\")}",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "1",
+      "varName2": "test",
+      "name": "Send Message"
+    },
+    {
+      "message": "1",
+      "varName": "test",
+      "info": "2",
+      "storage": "2",
+      "varName2": "text2",
+      "name": "Store Message Info"
+    },
+    {
       "video": "${slashParams(\"Url\")}",
       "info": "2",
       "storage": "1",
@@ -482,7 +451,7 @@
       "message": "",
       "buttons": [
         {
-          "name": "ㅤㅤㅤWznówㅤㅤㅤ",
+          "name": "ㅤWznówㅤ",
           "type": "SUCCESS",
           "id": "msg-button-f6cbb7f",
           "row": "",
@@ -517,7 +486,7 @@
           ]
         },
         {
-          "name": "ㅤㅤㅤWstrzymajㅤㅤㅤ",
+          "name": "ㅤWstrzymajㅤ",
           "type": "PRIMARY",
           "id": "msg-button-f412fdd",
           "row": "",
@@ -552,7 +521,7 @@
           ]
         },
         {
-          "name": "ㅤㅤㅤWyłączㅤㅤㅤ",
+          "name": "ㅤWyłączㅤ",
           "type": "DANGER",
           "id": "msg-button-2885738",
           "row": "",
@@ -586,6 +555,50 @@
             },
             {
               "name": "Leave Voice Channel"
+            }
+          ]
+        },
+        {
+          "name": "ㅤㅤJeszcze razㅤㅤ",
+          "type": "PRIMARY",
+          "id": "msg-button-831e6c4",
+          "row": "",
+          "url": "",
+          "emoji": "",
+          "mode": "PERSISTENT",
+          "time": "",
+          "actions": [
+            {
+              "channel": "0",
+              "varName": "",
+              "name": "Join Voice Channel"
+            },
+            {
+              "url": "${serverVars(\"text2\")}",
+              "seek": "0",
+              "volume": "",
+              "bitrate": "",
+              "type": "1",
+              "name": "Play YouTube Video"
+            },
+            {
+              "channel": "0",
+              "varName": "",
+              "message": "gram!",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [],
+              "reply": true,
+              "ephemeral": false,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "0",
+              "varName2": "",
+              "name": "Send Message"
             }
           ]
         }
@@ -635,6 +648,12 @@
       "storage": "0",
       "varName2": "embed-muzyka",
       "name": "Send Message"
+    },
+    {
+      "storage": "1",
+      "varName": "test",
+      "reason": "",
+      "name": "Delete Message"
     }
   ],
   "comType": "4",
