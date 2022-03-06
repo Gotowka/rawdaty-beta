@@ -11,9 +11,9 @@
       "comparison": "5",
       "value": "'a'",
       "branch": {
-        "iftrue": "3",
+        "iftrue": "2",
         "iffalse": "0",
-        "iftrueVal": "2"
+        "iftrueVal": "4"
       },
       "name": "Check Variable"
     },
