@@ -6,8 +6,8 @@
  Rawdaty rozdzielam na 3 kategorie, pod każdą z tych kategorii będzie osobna zakładka na github. Będą też osobne kategorie pod np muzyka,administratorskie. 
  Pod każdą rawdatą będzie krótki filmik jak wygląda komenda byś nie musiał specjalnie sprawdzać samemu i ułatwi ci to w 100% poszukiwanie rawdat!
  
- 🟧 = Srednie
  🟥 = Słabe
+ 🟧 = Srednie
  🟩 = Dobre
 
 
