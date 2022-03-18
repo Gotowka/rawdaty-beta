@@ -9,4 +9,6 @@
 # info
 Każda rawdata będzie z czasem aktualizowana na ładniejszą/lepszą. Polecam sprawdzać czasem na githuba, a są dodane filmy więc łatwiej zobaczyć jak jakaś rawka działa!
 
+Film są tylko w nowych kategoriach, typu (together)
+
  ©️ Gotowka 2021 - 2022
