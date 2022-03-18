@@ -11,4 +11,8 @@ Każda rawdata będzie z czasem aktualizowana na ładniejszą/lepszą. Polecam s
 
 Film są tylko w nowych kategoriach, typu (together)
 
+# Ostatni-Update
+
+Jeszcze nie ma updateów, dopiero wszystkie rawdaty będą do niedzieli więc od wtedy będą tutaj wpisywane aktualizacje komend!
+
  ©️ Gotowka 2021 - 2022
