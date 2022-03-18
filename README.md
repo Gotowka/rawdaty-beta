@@ -6,7 +6,7 @@
  Rawdaty rozdzielam na kategorie, np muzyka,administratorskie. 
  Pod każdą rawdatą będzie krótki filmik jak wygląda komenda byś nie musiał specjalnie sprawdzać samemu i ułatwi ci to w 100% poszukiwanie rawdat!
  
- #info
+# info
 Każda rawdata będzie z czasem aktualizowana na ładniejszą/lepszą. Polecam sprawdzać co 2dni githuba :)
 
  ©️ Gotowka 2021 - 2022
