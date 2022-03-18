@@ -13,6 +13,7 @@ Film są tylko w nowych kategoriach, typu (together)
 
 # Ostatni-Update
 
-Jeszcze nie ma updateów, dopiero wszystkie rawdaty będą do niedzieli więc od wtedy będą tutaj wpisywane aktualizacje komend!
+Jeszcze nie ma updateów, dopiero wszystkie rawdaty będą do niedzieli więc od wtedy będą tutaj wpisywane aktualizacje komend! (w kategoriach np together)
+komendy które są osobno są poto by linki na discordzie działały ale gdy wyjdzie najnowsza wersja dbma zostaną usunięte!
 
  ©️ Gotowka 2021 - 2022
