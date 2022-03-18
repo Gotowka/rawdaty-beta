@@ -7,6 +7,6 @@
  Pod każdą rawdatą będzie krótki filmik jak wygląda komenda byś nie musiał specjalnie sprawdzać samemu i ułatwi ci to w 100% poszukiwanie rawdat!
  
 # info
-Każda rawdata będzie z czasem aktualizowana na ładniejszą/lepszą. Polecam sprawdzać co 2dni githuba :)
+Każda rawdata będzie z czasem aktualizowana na ładniejszą/lepszą. Polecam sprawdzać czasem na githuba, a są dodane filmy więc łatwiej zobaczyć jak jakaś rawka działa!
 
  ©️ Gotowka 2021 - 2022
