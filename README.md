@@ -1,4 +1,4 @@
-# rawdaty-beta
+# rawdaty
  
  🔧 Authorem rawdat jestem ja (money#2222 - 666967829324628001)
  ✔ Rawdaty z together są użyte codem (dj13) od lolmak (259315943103004672)
