@@ -3,19 +3,26 @@
  🔧 Authorem rawdat jestem ja (money#6283 - 666967829324628001)
  ✔ Rawdaty z together są użyte codem (dj13) od lolmak (259315943103004672)
  
- Rawdaty rozdzielam na kategorie, np muzyka,administratorskie. 
- Pod każdą rawdatą będzie krótki filmik jak wygląda komenda byś nie musiał specjalnie sprawdzać samemu i ułatwi ci to w 100% poszukiwanie rawdat!
- 
-# info
-Każda rawdata będzie z czasem aktualizowana na ładniejszą/lepszą. Polecam sprawdzać czasem na githuba, a są dodane filmy więc łatwiej zobaczyć jak jakaś rawka działa!
+# Lista-Komend
 
-Film są tylko w nowych kategoriach, typu (together)
+
+1. ● *[Panda](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/panda)*
+
+2. ● *[CzerwonaPanda](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/czerwonapanda)* 
+
+3. ● *[Koala](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/Koala)*
+
+4. ● *[Kangur](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/kangur)*
+
+5. ● *[Kot](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/kot)*
+
+6. ● *[Pies](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/pies)*
 
 # Ostatni-Update
 
 **4Fun**
 
-➕ *[Panda](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/panda)* 20.04.2022,
+➕ *[Panda](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/panda)* 20.04.2022
 
 ➕ *[CzerwonaPanda](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/czerwonapanda)* 20.04.2022
 
