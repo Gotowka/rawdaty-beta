@@ -13,7 +13,14 @@ Film są tylko w nowych kategoriach, typu (together)
 
 # Ostatni-Update
 
-Jeszcze nie ma updateów, dopiero wszystkie rawdaty będą do niedzieli więc od wtedy będą tutaj wpisywane aktualizacje komend! (w kategoriach np together)
-komendy które są osobno są poto by linki na discordzie działały ale gdy udostępnie wszystkie w kategoriach zostaną usunięte!
+**4Fun**
+
+➕ *[Panda](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/panda)* 20.04 
+➕ *[CzerwonaPanda](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/czerwonapanda)* 20.04
+➕ *[Koala](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/Koala)* 20.04
+➕ *[Kangur](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/kangur)* 20.04
+➕ *[Kot](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/kot)* 20.04
+➕ *[Pies](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/pies)* 20.04
+
 
  ©️ Gotowka 2021 - 2022
