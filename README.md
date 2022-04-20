@@ -15,12 +15,12 @@ Film są tylko w nowych kategoriach, typu (together)
 
 **4Fun**
 
-➕ *[Panda](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/panda)* 20.04 
-➕ *[CzerwonaPanda](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/czerwonapanda)* 20.04
-➕ *[Koala](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/Koala)* 20.04
-➕ *[Kangur](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/kangur)* 20.04
-➕ *[Kot](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/kot)* 20.04
-➕ *[Pies](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/pies)* 20.04
+➕ *[Panda](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/panda)* 20.04.2022\n 
+➕ *[CzerwonaPanda](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/czerwonapanda)* 20.04.2022\n
+➕ *[Koala](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/Koala)* 20.04.2022\n
+➕ *[Kangur](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/kangur)* 20.04.2022\n
+➕ *[Kot](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/kot)* 20.04.2022\n
+➕ *[Pies](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/pies)* 20.04.2022
 
 
  ©️ Gotowka 2021 - 2022
