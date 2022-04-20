@@ -5,17 +5,17 @@
  
 # Lista-Komend
 
-1. ● *[Panda](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/panda)*
-2. ● *[CzerwonaPanda](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/czerwonapanda)* 
-3. ● *[Koala](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/Koala)*
-4. ● *[Kangur](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/kangur)*
-5. ● *[Kot](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/kot)*
-6. ● *[Pies](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/pies)*
-7. ● *[Youtube](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/Youtube)*
-8. ● *[Betrayal](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/Betrayal)*
-9. ● *[Fishington](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/Fishington)*
-10. ● *[Sketcheads](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/skeatcheads)*
-11. ● *[wordsnack](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/wordsnack)*
+1. ● *[Panda](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/panda)* [4Fun]
+2. ● *[CzerwonaPanda](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/czerwonapanda)* [4Fun]
+3. ● *[Koala](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/Koala)* [4Fun]
+4. ● *[Kangur](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/kangur)* [4Fun]
+5. ● *[Kot](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/kot)* [4Fun]
+6. ● *[Pies](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/pies)* [4Fun]
+7. ● *[Youtube](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/Youtube)* [Together]
+8. ● *[Betrayal](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/Betrayal)* [Together]
+9. ● *[Fishington](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/Fishington)* [Together]
+10. ● *[Sketcheads](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/skeatcheads)* [Together]
+11. ● *[wordsnack](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/wordsnack)* [Together]
 
 # Ostatni-Update
 
