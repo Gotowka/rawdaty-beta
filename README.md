@@ -17,6 +17,8 @@
 10. ● *[Sketcheads](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/skeatcheads)* [Together]
 11. ● *[wordsnack](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/wordsnack)* [Together]
 
+Reszte komend zostaną usunięte, iż będę je sortował i robił je na profesjonalny sposób
+
 # Ostatni-Update
 
 **4Fun**
