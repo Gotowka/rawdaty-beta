@@ -14,7 +14,7 @@
 7. ● *[Youtube](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/youtube)* [Together]
 8. ● *[Betrayal](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/betrayal)* [Together]
 9. ● *[Fishington](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/fishington)* [Together]
-10. ● *[Sketcheads](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/skeatcheads)* [Together]
+10. ● *[Sketcheads](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/sketchheads)* [Together]
 11. ● *[wordsnack](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/wordsnack)* [Together]
 
 Reszte komend zostaną usunięte, iż będę je sortował i robił je na profesjonalniejszy sposób
