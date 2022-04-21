@@ -11,11 +11,12 @@
 4. ● *[Kangur](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/kangur)* [4Fun]
 5. ● *[Kot](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/kot)* [4Fun]
 6. ● *[Pies](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/pies)* [4Fun]
-7. ● *[Youtube](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/youtube)* [Together]
-8. ● *[Betrayal](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/betrayal)* [Together]
-9. ● *[Fishington](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/fishington)* [Together]
-10. ● *[Sketcheads](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/sketchheads)* [Together]
-11. ● *[wordsnack](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/wordsnack)* [Together]
+7. ● *[Clyde](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/clyde)* [4Fun]
+8. ● *[Youtube](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/youtube)* [Together]
+9. ● *[Betrayal](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/betrayal)* [Together]
+10. ● *[Fishington](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/fishington)* [Together]
+11. ● *[Sketcheads](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/sketchheads)* [Together]
+12. ● *[wordsnack](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/wordsnack)* [Together]
 
 Reszte komend zostaną usunięte, iż będę je sortował i robił je na profesjonalniejszy sposób
 
@@ -34,6 +35,8 @@ Reszte komend zostaną usunięte, iż będę je sortował i robił je na profesj
 ➕ *[Kot](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/kot)* 20.04.2022
 
 ➕ *[Pies](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/pies)* 20.04.2022
+
+➕ *[Clyde](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/clyde)* 21.04.2022
 
 
  ©️ Gotowka 2021 - 2022
