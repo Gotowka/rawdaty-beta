@@ -11,9 +11,9 @@
 4. ● *[Kangur](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/kangur)* [4Fun]
 5. ● *[Kot](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/kot)* [4Fun]
 6. ● *[Pies](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/pies)* [4Fun]
-7. ● *[Youtube](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/Youtube)* [Together]
-8. ● *[Betrayal](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/Betrayal)* [Together]
-9. ● *[Fishington](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/Fishington)* [Together]
+7. ● *[Youtube](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/youtube)* [Together]
+8. ● *[Betrayal](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/betrayal)* [Together]
+9. ● *[Fishington](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/fishington)* [Together]
 10. ● *[Sketcheads](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/skeatcheads)* [Together]
 11. ● *[wordsnack](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/wordsnack)* [Together]
 
