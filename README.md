@@ -13,13 +13,15 @@
 6. ● *[Pies](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/pies)* [4Fun]
 7. ● *[Clyde](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/clyde)* [4Fun]
 8. ● *[Ship](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/ship)* [4Fun]
-9. ● *[Youtube](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/komentarz-yt)* [4Fun]
-10. ● *[Tweet](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/komentarz-tweet)* [4Fun]
-11. ● *[Youtube](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/youtube)* [Together]
-12. ● *[Betrayal](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/betrayal)* [Together]
-13. ● *[Fishington](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/fishington)* [Together]
-14. ● *[Sketcheads](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/sketchheads)* [Together]
-15. ● *[wordsnack](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/wordsnack)* [Together]
+9. ● *[Namemc](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/namemc)* [4Fun]
+10. ● *[Osiagniecia](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/osiagniecia)* [4Fun]
+11. ● *[Youtube](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/komentarz-yt)* [4Fun]
+12. ● *[Tweet](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/komentarz-tweet)* [4Fun]
+13. ● *[Youtube](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/youtube)* [Together]
+14. ● *[Betrayal](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/betrayal)* [Together]
+15. ● *[Fishington](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/fishington)* [Together]
+16. ● *[Sketcheads](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/sketchheads)* [Together]
+17. ● *[wordsnack](https://github.com/Gotowka/rawdaty-beta/tree/main/Together/wordsnack)* [Together]
 
 Reszte komend zostaną usunięte, iż będę je sortował i robił je na profesjonalniejszy sposób
 
