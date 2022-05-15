@@ -10,50 +10,18 @@
       "info": "4",
       "varName2": "",
       "iftrue": "3",
-      "iftrueVal": "4",
+      "iftrueVal": "2",
       "iffalse": "0",
       "iffalseVal": "",
       "name": "Check If Member"
     },
     {
-      "title": "Błąd!",
-      "author": "",
-      "color": "ff0000",
-      "url": "",
-      "authorIcon": "",
-      "authorUrl": "",
-      "imageUrl": "",
-      "thumbUrl": "",
-      "timestamp": "false",
-      "debug": "false",
-      "text": "",
-      "year": "",
-      "month": "",
-      "day": "",
-      "hour": "",
-      "minute": "",
-      "second": "",
-      "storage": "1",
-      "varName": "errr",
-      "name": "Create Embed Message"
-    },
-    {
-      "storage": "1",
-      "varName": "errr",
-      "message": "> `❌` Musisz być na kanale głosowym!",
-      "name": "Set Embed Description"
-    },
-    {
-      "storage": "1",
-      "varName": "errr",
-      "channel": "0",
-      "varName2": "",
-      "storage3": "0",
-      "varName3": "",
-      "iffalse": "0",
-      "iffalseVal": "",
-      "messageContent": "",
-      "name": "Send Embed Message"
+      "behavior": "0",
+      "interpretation": "0",
+      "code": "const Discord = require('discord.js');\nconst client = new Discord.Client({intents: [\"GUILDS\", \"GUILD_MESSAGES\"] });\n\nmsg.reply({ embeds: [new Discord.MessageEmbed()\n    .setTitle('Błąd!')\n    .setColor('ff0000')\n    .setDescription\n    (`\n:x: Musisz być na kanale głosowym!\n    `)\n   .setAuthor({ name: msg.author.tag , iconURL: msg.author.displayAvatarURL({ dynamic: true }) })\n]});",
+      "storage": "0",
+      "varName": "",
+      "name": "Run Script"
     },
     {
       "name": "End Action Sequence"
@@ -63,50 +31,18 @@
       "comparison": "4",
       "value": "1",
       "iftrue": "3",
-      "iftrueVal": "4",
+      "iftrueVal": "2",
       "iffalse": "0",
       "iffalseVal": "",
       "name": "Check Parameters"
     },
     {
-      "title": "Błąd!",
-      "author": "",
-      "color": "ff0000",
-      "url": "",
-      "authorIcon": "",
-      "authorUrl": "",
-      "imageUrl": "",
-      "thumbUrl": "",
-      "timestamp": "false",
-      "debug": "false",
-      "text": "",
-      "year": "",
-      "month": "",
-      "day": "",
-      "hour": "",
-      "minute": "",
-      "second": "",
-      "storage": "1",
-      "varName": "rerr",
-      "name": "Create Embed Message"
-    },
-    {
-      "storage": "1",
-      "varName": "rerr",
-      "message": "> `❌` Podaj tytuł!",
-      "name": "Set Embed Description"
-    },
-    {
-      "storage": "1",
-      "varName": "rerr",
-      "channel": "0",
-      "varName2": "",
-      "storage3": "0",
-      "varName3": "",
-      "iffalse": "0",
-      "iffalseVal": "",
-      "messageContent": "",
-      "name": "Send Embed Message"
+      "behavior": "0",
+      "interpretation": "0",
+      "code": "const Discord = require('discord.js');\nconst client = new Discord.Client({intents: [\"GUILDS\", \"GUILD_MESSAGES\"] });\n\nmsg.reply({ embeds: [new Discord.MessageEmbed()\n    .setTitle('Błąd!')\n    .setColor('ff0000')\n    .setDescription\n    (`\n:x: Podaj tytuł!\n    `)\n   .setAuthor({ name: msg.author.tag , iconURL: msg.author.displayAvatarURL({ dynamic: true }) })\n]});",
+      "storage": "0",
+      "varName": "",
+      "name": "Run Script"
     },
     {
       "name": "End Action Sequence"
@@ -126,7 +62,7 @@
       "iftrue": "0",
       "iftrueVal": "20",
       "iffalse": "2",
-      "iffalseVal": "20",
+      "iffalseVal": "15",
       "name": "Check If Member"
     },
     {
@@ -153,52 +89,25 @@
       "branch": {
         "iftrue": "3",
         "iffalse": "0",
-        "iftrueVal": "4"
+        "iftrueVal": "2"
       },
       "name": "Check Variable"
     },
     {
-      "title": "Błąd!",
-      "author": "",
-      "color": "ff0000",
-      "url": "",
-      "authorIcon": "",
-      "authorUrl": "",
-      "imageUrl": "",
-      "thumbUrl": "",
-      "timestamp": "false",
-      "debug": "false",
-      "text": "",
-      "year": "",
-      "month": "",
-      "day": "",
-      "hour": "",
-      "minute": "",
-      "second": "",
-      "storage": "1",
-      "varName": "errr",
-      "name": "Create Embed Message"
-    },
-    {
-      "storage": "1",
-      "varName": "errr",
-      "message": "> `❌` Musisz być na tym samym kanale co bot!",
-      "name": "Set Embed Description"
-    },
-    {
-      "storage": "1",
-      "varName": "errr",
-      "channel": "0",
-      "varName2": "",
-      "storage3": "0",
-      "varName3": "",
-      "iffalse": "0",
-      "iffalseVal": "",
-      "messageContent": "",
-      "name": "Send Embed Message"
+      "behavior": "0",
+      "interpretation": "0",
+      "code": "const Discord = require('discord.js');\nconst client = new Discord.Client({intents: [\"GUILDS\", \"GUILD_MESSAGES\"] });\n\nmsg.reply({ embeds: [new Discord.MessageEmbed()\n    .setTitle('Błąd!')\n    .setColor('ff0000')\n    .setDescription\n    (`\n:x:Musisz być na tym samym kanale co bot!\n    `)\n   .setAuthor({ name: msg.author.tag , iconURL: msg.author.displayAvatarURL({ dynamic: true }) })\n]});",
+      "storage": "0",
+      "varName": "",
+      "name": "Run Script"
     },
     {
       "name": "End Action Sequence"
+    },
+    {
+      "time": "1",
+      "measurement": "1",
+      "name": "Wait"
     },
     {
       "message": "0",
@@ -207,7 +116,7 @@
       "ParamN": "1",
       "separator": "",
       "storage": "1",
-      "varName2": "Message",
+      "varName2": "wiadomosc",
       "count": "",
       "name": "Store Message Params"
     },
@@ -215,7 +124,7 @@
       "token": "",
       "user": "",
       "pass": "",
-      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"Message\")}",
+      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"wiadomosc\")}",
       "path": "$.results[0].video.title",
       "storage": "1",
       "varName": "Title",
@@ -228,7 +137,7 @@
       "token": "",
       "user": "",
       "pass": "",
-      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"Message\")}",
+      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"wiadomosc\")}",
       "path": "$.results[0].video.url",
       "storage": "1",
       "varName": "URL",
@@ -241,7 +150,7 @@
       "token": "",
       "user": "",
       "pass": "",
-      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"Message\")}",
+      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"wiadomosc\")}",
       "path": "$.results[0].video.thumbnail_src",
       "storage": "1",
       "varName": "Thumbnail",
@@ -254,7 +163,7 @@
       "token": "",
       "user": "",
       "pass": "",
-      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"Message\")}",
+      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"wiadomosc\")}",
       "path": "$.results[0].video.duration",
       "storage": "1",
       "varName": "czas",
@@ -267,7 +176,7 @@
       "token": "",
       "user": "",
       "pass": "",
-      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"Message\")}",
+      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"wiadomosc\")}",
       "path": "$.results[0].video.views",
       "storage": "1",
       "varName": "wyświetlenia",
@@ -289,7 +198,7 @@
       "token": "",
       "user": "",
       "pass": "",
-      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"Message\")}",
+      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"wiadomosc\")}",
       "path": "$.results[0].uploader.username",
       "storage": "1",
       "varName": "tworca",
@@ -302,7 +211,7 @@
       "token": "",
       "user": "",
       "pass": "",
-      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"Message\")}",
+      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"wiadomosc\")}",
       "path": "$.results[0].video.upload_date",
       "storage": "1",
       "varName": "data",
@@ -319,38 +228,6 @@
       "name": "Translate"
     },
     {
-      "behavior": "0",
-      "interpretation": "1",
-      "code": "const Discord = require('discord.js');\nconst client = new Discord.Client({intents: [\"GUILDS\", \"GUILD_MESSAGES\"] });\n\nconst tytul = tempVars(\"Title\");\nconst link = tempVars(\"URL\");\nconst grafika = tempVars(\"Thumbnail\");\nconst czas = tempVars(\"czas\");\nconst views = tempVars(\"rvievs\");\nconst tworca = tempVars(\"tworca\");\nconst kiedy = tempVars(\"tdata\");\n\n\nmsg.reply({ embeds: [new Discord.MessageEmbed()\n    .setTitle('Gratulacje!')\n    .setColor('0x20fc03')\n    .setDescription\n    (`\n              **Tytuł:** \n        > [${tytul}](${link})\n              **Czas:** \n        > ${czas}\n              **Wyświetlenia:** \n        > ${views}\n              **Tworca:** \n        > ${tworca}\n              **Data stworzenia:** \n        > ${kiedy}\n\n    `)\n   .setAuthor({ name: msg.author.tag , iconURL: msg.author.displayAvatarURL({ dynamic: true }) })\n]});",
-      "storage": "0",
-      "varName": "",
-      "name": "Run Script"
-    },
-    {
-      "member": "1",
-      "varName": "",
-      "info": "16",
-      "storage": "1",
-      "varName2": "AvatarURL",
-      "name": "Store Member Info"
-    },
-    {
-      "member": "1",
-      "varName": "",
-      "info": "0",
-      "storage": "1",
-      "varName2": "DisplayName",
-      "name": "Store Member Info"
-    },
-    {
-      "channel": "0",
-      "varName": "",
-      "info": "0",
-      "storage": "1",
-      "varName2": "obvc",
-      "name": "Store Voice Channel Info"
-    },
-    {
       "channel": "0",
       "varName": "",
       "name": "Join Voice Channel"
@@ -362,6 +239,14 @@
       "bitrate": "",
       "type": "0",
       "name": "Play YouTube Video"
+    },
+    {
+      "behavior": "0",
+      "interpretation": "1",
+      "code": "const Discord = require('discord.js');\nconst client = new Discord.Client({intents: [\"GUILDS\", \"GUILD_MESSAGES\"] });\n\nconst tytul = tempVars(\"Title\");\nconst link = tempVars(\"URL\");\nconst grafika = tempVars(\"Thumbnail\");\nconst czas = tempVars(\"czas\");\nconst views = tempVars(\"rvievs\");\nconst tworca = tempVars(\"tworca\");\nconst kiedy = tempVars(\"tdata\");\n\n\nmsg.reply({ embeds: [new Discord.MessageEmbed()\n    .setTitle('Gratulacje!')\n    .setColor('0x20fc03')\n    .setDescription\n    (`\n              **Tytuł:** \n        > [${tytul}](${link})\n              **Czas:** \n        > ${czas}\n              **Wyświetlenia:** \n        > ${views}\n              **Tworca:** \n        > ${tworca}\n              **Data stworzenia:** \n        > ${kiedy}\n\n    `)\n   .setAuthor({ name: msg.author.tag , iconURL: msg.author.displayAvatarURL({ dynamic: true }) })\n]});",
+      "storage": "0",
+      "varName": "",
+      "name": "Run Script"
     },
     {
       "volume": "60",
