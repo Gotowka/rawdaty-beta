@@ -1,0 +1,262 @@
+{
+  "name": "Play",
+  "permissions": "NONE",
+  "restriction": "0",
+  "_id": "YsZwB",
+  "actions": [
+    {
+      "member": "1",
+      "varName": "",
+      "info": "4",
+      "varName2": "",
+      "iftrue": "3",
+      "iftrueVal": "2",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check If Member"
+    },
+    {
+      "behavior": "0",
+      "interpretation": "0",
+      "code": "const Discord = require('discord.js');\nconst client = new Discord.Client({intents: [\"GUILDS\", \"GUILD_MESSAGES\"] });\n\nmsg.reply({ embeds: [new Discord.MessageEmbed()\n    .setTitle('Błąd!')\n    .setColor('ff0000')\n    .setDescription\n    (`\n:x: Musisz być na kanale głosowym!\n    `)\n   .setAuthor({ name: msg.author.tag , iconURL: msg.author.displayAvatarURL({ dynamic: true }) })\n]});",
+      "storage": "0",
+      "varName": "",
+      "name": "Run Script"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "condition": "0",
+      "comparison": "4",
+      "value": "1",
+      "iftrue": "3",
+      "iftrueVal": "2",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Parameters"
+    },
+    {
+      "behavior": "0",
+      "interpretation": "0",
+      "code": "const Discord = require('discord.js');\nconst client = new Discord.Client({intents: [\"GUILDS\", \"GUILD_MESSAGES\"] });\n\nmsg.reply({ embeds: [new Discord.MessageEmbed()\n    .setTitle('Błąd!')\n    .setColor('ff0000')\n    .setDescription\n    (`\n:x: Podaj tytuł!\n    `)\n   .setAuthor({ name: msg.author.tag , iconURL: msg.author.displayAvatarURL({ dynamic: true }) })\n]});",
+      "storage": "0",
+      "varName": "",
+      "name": "Run Script"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "server": "0",
+      "varName": "",
+      "storage": "1",
+      "varName2": "bot",
+      "name": "Get Bot as Member"
+    },
+    {
+      "member": "2",
+      "varName": "bot",
+      "info": "4",
+      "varName2": "",
+      "iftrue": "0",
+      "iftrueVal": "20",
+      "iffalse": "2",
+      "iffalseVal": "15",
+      "name": "Check If Member"
+    },
+    {
+      "member": "1",
+      "varName": "",
+      "info": "19",
+      "storage": "1",
+      "varName2": "vcm",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "2",
+      "varName": "bot",
+      "info": "19",
+      "storage": "1",
+      "varName2": "vcbot",
+      "name": "Store Member Info"
+    },
+    {
+      "storage": "1",
+      "varName": "vcm",
+      "comparison": "1",
+      "value": "tempVars(\"vcbot\")",
+      "branch": {
+        "iftrue": "3",
+        "iffalse": "0",
+        "iftrueVal": "2"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "behavior": "0",
+      "interpretation": "0",
+      "code": "const Discord = require('discord.js');\nconst client = new Discord.Client({intents: [\"GUILDS\", \"GUILD_MESSAGES\"] });\n\nmsg.reply({ embeds: [new Discord.MessageEmbed()\n    .setTitle('Błąd!')\n    .setColor('ff0000')\n    .setDescription\n    (`\n:x:Musisz być na tym samym kanale co bot!\n    `)\n   .setAuthor({ name: msg.author.tag , iconURL: msg.author.displayAvatarURL({ dynamic: true }) })\n]});",
+      "storage": "0",
+      "varName": "",
+      "name": "Run Script"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "time": "1",
+      "measurement": "1",
+      "name": "Wait"
+    },
+    {
+      "message": "0",
+      "varName": "",
+      "info": "1",
+      "ParamN": "1",
+      "separator": "",
+      "storage": "1",
+      "varName2": "wiadomosc",
+      "count": "",
+      "name": "Store Message Params"
+    },
+    {
+      "token": "",
+      "user": "",
+      "pass": "",
+      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"wiadomosc\")}",
+      "path": "$.results[0].video.title",
+      "storage": "1",
+      "varName": "Title",
+      "debugMode": "1",
+      "headers": "",
+      "reUse": "1",
+      "name": "Store Json From WebAPI"
+    },
+    {
+      "token": "",
+      "user": "",
+      "pass": "",
+      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"wiadomosc\")}",
+      "path": "$.results[0].video.url",
+      "storage": "1",
+      "varName": "URL",
+      "debugMode": "1",
+      "headers": "",
+      "reUse": "1",
+      "name": "Store Json From WebAPI"
+    },
+    {
+      "token": "",
+      "user": "",
+      "pass": "",
+      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"wiadomosc\")}",
+      "path": "$.results[0].video.thumbnail_src",
+      "storage": "1",
+      "varName": "Thumbnail",
+      "debugMode": "1",
+      "headers": "",
+      "reUse": "1",
+      "name": "Store Json From WebAPI"
+    },
+    {
+      "token": "",
+      "user": "",
+      "pass": "",
+      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"wiadomosc\")}",
+      "path": "$.results[0].video.duration",
+      "storage": "1",
+      "varName": "czas",
+      "debugMode": "1",
+      "headers": "",
+      "reUse": "1",
+      "name": "Store Json From WebAPI"
+    },
+    {
+      "token": "",
+      "user": "",
+      "pass": "",
+      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"wiadomosc\")}",
+      "path": "$.results[0].video.views",
+      "storage": "1",
+      "varName": "wyświetlenia",
+      "debugMode": "1",
+      "headers": "",
+      "reUse": "1",
+      "name": "Store Json From WebAPI"
+    },
+    {
+      "text": "${tempVars(\"wyświetlenia\")}",
+      "text2": "views",
+      "text3": "",
+      "info": "0",
+      "storage": "1",
+      "varName": "rvievs",
+      "name": "Replace Text"
+    },
+    {
+      "token": "",
+      "user": "",
+      "pass": "",
+      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"wiadomosc\")}",
+      "path": "$.results[0].uploader.username",
+      "storage": "1",
+      "varName": "tworca",
+      "debugMode": "1",
+      "headers": "",
+      "reUse": "1",
+      "name": "Store Json From WebAPI"
+    },
+    {
+      "token": "",
+      "user": "",
+      "pass": "",
+      "url": "https://ytscrape.maceratime.com/api/search?q=${tempVars(\"wiadomosc\")}",
+      "path": "$.results[0].video.upload_date",
+      "storage": "1",
+      "varName": "data",
+      "debugMode": "1",
+      "headers": "",
+      "reUse": "1",
+      "name": "Store Json From WebAPI"
+    },
+    {
+      "translateTo": "pl",
+      "translateMessage": "${tempVars(\"data\")}",
+      "storage": "1",
+      "varName": "tdata",
+      "name": "Translate"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "name": "Join Voice Channel"
+    },
+    {
+      "url": "${tempVars(\"URL\")}",
+      "seek": "0",
+      "volume": "70",
+      "bitrate": "",
+      "type": "0",
+      "name": "Play YouTube Video"
+    },
+    {
+      "behavior": "0",
+      "interpretation": "1",
+      "code": "const Discord = require('discord.js');\nconst client = new Discord.Client({intents: [\"GUILDS\", \"GUILD_MESSAGES\"] });\n\nconst tytul = tempVars(\"Title\");\nconst link = tempVars(\"URL\");\nconst grafika = tempVars(\"Thumbnail\");\nconst czas = tempVars(\"czas\");\nconst views = tempVars(\"rvievs\");\nconst tworca = tempVars(\"tworca\");\nconst kiedy = tempVars(\"tdata\");\n\n\nmsg.reply({ embeds: [new Discord.MessageEmbed()\n    .setTitle('Gratulacje!')\n    .setColor('0x20fc03')\n    .setDescription\n    (`\n              **Tytuł:** \n        > [${tytul}](${link})\n              **Czas:** \n        > ${czas}\n              **Wyświetlenia:** \n        > ${views}\n              **Tworca:** \n        > ${tworca}\n              **Data stworzenia:** \n        > ${kiedy}\n\n    `)\n   .setAuthor({ name: msg.author.tag , iconURL: msg.author.displayAvatarURL({ dynamic: true }) })\n]});",
+      "storage": "0",
+      "varName": "",
+      "name": "Run Script"
+    },
+    {
+      "volume": "60",
+      "name": "Set Audio Volume"
+    }
+  ],
+  "_aliases": [
+    "p",
+    "graj",
+    "play"
+  ],
+  "comType": "0"
+}
