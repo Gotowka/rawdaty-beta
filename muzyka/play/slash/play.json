@@ -1,8 +1,8 @@
 {
-  "name": "Play",
+  "name": "play",
   "permissions": "NONE",
   "restriction": "0",
-  "_id": "YsZwB",
+  "_id": "UcnKL",
   "actions": [
     {
       "member": "1",
@@ -132,19 +132,6 @@
       "user": "",
       "pass": "",
       "url": "https://ytscrape.maceratime.com/api/search?q=${slashParams(\"Tytul\")}",
-      "path": "$.results[0].video.duration",
-      "storage": "1",
-      "varName": "czas",
-      "debugMode": "1",
-      "headers": "",
-      "reUse": "1",
-      "name": "Store Json From WebAPI"
-    },
-    {
-      "token": "",
-      "user": "",
-      "pass": "",
-      "url": "https://ytscrape.maceratime.com/api/search?q=${slashParams(\"Tytul\")}",
       "path": "$.results[0].video.views",
       "storage": "1",
       "varName": "wyświetlenia",
@@ -178,7 +165,7 @@
     {
       "behavior": "0",
       "interpretation": "1",
-      "code": "const Discord = require('discord.js');\nconst client = new Discord.Client({intents: [\"GUILDS\", \"GUILD_MESSAGES\"] });\n\nconst tytul = tempVars(\"Title\");\nconst link = tempVars(\"URL\");\nconst grafika = tempVars(\"Thumbnail\");\nconst czas = tempVars(\"czas\");\nconst views = tempVars(\"rvievs\");\nconst tworca = tempVars(\"tworca\");\n\n\ninteraction.reply({ embeds: [new Discord.MessageEmbed()\n    .setTitle('Gratulacje!')\n    .setColor('0x20fc03')\n    .setDescription\n    (`\n              **Tytuł:** \n        > [${tytul}](${link})\n              **Czas:** \n        > ${czas}\n              **Wyświetlenia:** \n        > ${views}\n              **Tworca:** \n        > ${tworca}\n\n    `)\n  .setAuthor({ name: interaction.member.user.tag , iconURL: interaction.member.displayAvatarURL({ dynamic: true }) })\n]});",
+      "code": "const Discord = require('discord.js');\nconst client = new Discord.Client({intents: [\"GUILDS\", \"GUILD_MESSAGES\"] });\n\nconst tytul = tempVars(\"Title\");\nconst link = tempVars(\"URL\");\nconst grafika = tempVars(\"Thumbnail\");\nconst views = tempVars(\"rvievs\");\nconst tworca = tempVars(\"tworca\");\n\n\ninteraction.reply({ embeds: [new Discord.MessageEmbed()\n    .setTitle('Gratulacje!')\n    .setColor('0x20fc03')\n    .setDescription\n    (`\n              **Tytuł:** \n        > [${tytul}](${link})\n              **Wyświetlenia:** \n        > ${views}\n              **Tworca:** \n        > ${tworca}\n\n    `)\n  .setAuthor({ name: interaction.member.user.tag , iconURL: interaction.member.displayAvatarURL({ dynamic: true }) })\n]});",
       "storage": "0",
       "varName": "",
       "name": "Run Script"
@@ -201,7 +188,7 @@
     "graj",
     "play"
   ],
-  "comType": "4",
+  "comType": "0",
   "parameters": [
     {
       "name": "Tytul",
@@ -210,5 +197,6 @@
       "required": true,
       "choices": null
     }
-  ]
+  ],
+  "description": "Puszczaj muzyke!"
 }
