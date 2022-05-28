@@ -27,12 +27,6 @@
 
 # Ostatni-Update
 
-**4Fun**
 
-➕ *[Autokanal](https://github.com/Gotowka/rawdaty-beta/tree/main/4fun/autokanal)* 15.05.2022
-
-**Muzyka**
-
-➕ *[Play](https://github.com/Gotowka/rawdaty-beta/tree/main/muzyka/play)* 15.05.2022
 
  ©️ Gotowka 2021 - 2022
