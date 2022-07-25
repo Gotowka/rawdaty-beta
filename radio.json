@@ -3,7 +3,7 @@
   "permissions": "NONE",
   "permissions2": "NONE",
   "restriction": "1",
-  "_id": "Utsns",
+  "_id": "LkmsH",
   "actions": [
     {
       "storage": "4",
@@ -18,25 +18,6 @@
               "varName": "",
               "type": "0",
               "name": "Radio"
-            },
-            {
-              "channel": "0",
-              "varName": "",
-              "message": "Słuchasz radia **RMF-FM**!",
-              "buttons": [],
-              "selectMenus": [],
-              "attachments": [],
-              "embeds": [],
-              "reply": true,
-              "ephemeral": true,
-              "tts": false,
-              "overwrite": false,
-              "dontSend": false,
-              "editMessage": "0",
-              "editMessageVarName": "",
-              "storage": "0",
-              "varName2": "",
-              "name": "Send Message"
             }
           ]
         },
@@ -49,25 +30,6 @@
               "varName": "",
               "type": "1",
               "name": "Radio"
-            },
-            {
-              "channel": "0",
-              "varName": "",
-              "message": "Słuchasz radia **RMF-MAXXX**!",
-              "buttons": [],
-              "selectMenus": [],
-              "attachments": [],
-              "embeds": [],
-              "reply": true,
-              "ephemeral": true,
-              "tts": false,
-              "overwrite": false,
-              "dontSend": false,
-              "editMessage": "0",
-              "editMessageVarName": "",
-              "storage": "0",
-              "varName2": "",
-              "name": "Send Message"
             }
           ]
         },
@@ -80,25 +42,6 @@
               "varName": "",
               "type": "2",
               "name": "Radio"
-            },
-            {
-              "channel": "0",
-              "varName": "",
-              "message": "Słuchasz radia **RMF-DANCE**!",
-              "buttons": [],
-              "selectMenus": [],
-              "attachments": [],
-              "embeds": [],
-              "reply": true,
-              "ephemeral": true,
-              "tts": false,
-              "overwrite": false,
-              "dontSend": false,
-              "editMessage": "0",
-              "editMessageVarName": "",
-              "storage": "0",
-              "varName2": "",
-              "name": "Send Message"
             }
           ]
         },
@@ -109,27 +52,11 @@
             {
               "channel": "0",
               "varName": "",
+              "source": "1",
               "type": "3",
+              "type2": "13",
+              "type3": "31",
               "name": "Radio"
-            },
-            {
-              "channel": "0",
-              "varName": "",
-              "message": "Słuchasz radia **RMF-CLUB**!",
-              "buttons": [],
-              "selectMenus": [],
-              "attachments": [],
-              "embeds": [],
-              "reply": true,
-              "ephemeral": true,
-              "tts": false,
-              "overwrite": false,
-              "dontSend": false,
-              "editMessage": "0",
-              "editMessageVarName": "",
-              "storage": "0",
-              "varName2": "",
-              "name": "Send Message"
             }
           ]
         },
@@ -142,25 +69,6 @@
               "varName": "",
               "type": "4",
               "name": "Radio"
-            },
-            {
-              "channel": "0",
-              "varName": "",
-              "message": "Słuchasz radia **RMF-FITNESS**!",
-              "buttons": [],
-              "selectMenus": [],
-              "attachments": [],
-              "embeds": [],
-              "reply": true,
-              "ephemeral": true,
-              "tts": false,
-              "overwrite": false,
-              "dontSend": false,
-              "editMessage": "0",
-              "editMessageVarName": "",
-              "storage": "0",
-              "varName2": "",
-              "name": "Send Message"
             }
           ]
         },
@@ -173,25 +81,6 @@
               "varName": "",
               "type": "5",
               "name": "Radio"
-            },
-            {
-              "channel": "0",
-              "varName": "",
-              "message": "Słuchasz radia **RMF-HOP**!",
-              "buttons": [],
-              "selectMenus": [],
-              "attachments": [],
-              "embeds": [],
-              "reply": true,
-              "ephemeral": true,
-              "tts": false,
-              "overwrite": false,
-              "dontSend": false,
-              "editMessage": "0",
-              "editMessageVarName": "",
-              "storage": "0",
-              "varName2": "",
-              "name": "Send Message"
             }
           ]
         },
@@ -204,25 +93,6 @@
               "varName": "",
               "type": "6",
               "name": "Radio"
-            },
-            {
-              "channel": "0",
-              "varName": "",
-              "message": "Słuchasz radia **RMF-PARTY**!",
-              "buttons": [],
-              "selectMenus": [],
-              "attachments": [],
-              "embeds": [],
-              "reply": true,
-              "ephemeral": true,
-              "tts": false,
-              "overwrite": false,
-              "dontSend": false,
-              "editMessage": "0",
-              "editMessageVarName": "",
-              "storage": "0",
-              "varName2": "",
-              "name": "Send Message"
             }
           ]
         },
@@ -235,25 +105,6 @@
               "varName": "",
               "type": "7",
               "name": "Radio"
-            },
-            {
-              "channel": "0",
-              "varName": "",
-              "message": "Słuchasz radia **RMF-PRACA**!",
-              "buttons": [],
-              "selectMenus": [],
-              "attachments": [],
-              "embeds": [],
-              "reply": true,
-              "ephemeral": true,
-              "tts": false,
-              "overwrite": false,
-              "dontSend": false,
-              "editMessage": "0",
-              "editMessageVarName": "",
-              "storage": "0",
-              "varName2": "",
-              "name": "Send Message"
             }
           ]
         },
@@ -266,25 +117,6 @@
               "varName": "",
               "type": "8",
               "name": "Radio"
-            },
-            {
-              "channel": "0",
-              "varName": "",
-              "message": "Słuchasz radia **RMF-DISCO**!",
-              "buttons": [],
-              "selectMenus": [],
-              "attachments": [],
-              "embeds": [],
-              "reply": true,
-              "ephemeral": true,
-              "tts": false,
-              "overwrite": false,
-              "dontSend": false,
-              "editMessage": "0",
-              "editMessageVarName": "",
-              "storage": "0",
-              "varName2": "",
-              "name": "Send Message"
             }
           ]
         },
@@ -297,25 +129,6 @@
               "varName": "",
               "type": "9",
               "name": "Radio"
-            },
-            {
-              "channel": "0",
-              "varName": "",
-              "message": "Słuchasz radia **RMF-HOT**!",
-              "buttons": [],
-              "selectMenus": [],
-              "attachments": [],
-              "embeds": [],
-              "reply": true,
-              "ephemeral": true,
-              "tts": false,
-              "overwrite": false,
-              "dontSend": false,
-              "editMessage": "0",
-              "editMessageVarName": "",
-              "storage": "0",
-              "varName2": "",
-              "name": "Send Message"
             }
           ]
         },
@@ -328,25 +141,6 @@
               "varName": "",
               "type": "10",
               "name": "Radio"
-            },
-            {
-              "channel": "0",
-              "varName": "",
-              "message": "Słuchasz radia **RMF-POLODISCO**!",
-              "buttons": [],
-              "selectMenus": [],
-              "attachments": [],
-              "embeds": [],
-              "reply": true,
-              "ephemeral": true,
-              "tts": false,
-              "overwrite": false,
-              "dontSend": false,
-              "editMessage": "0",
-              "editMessageVarName": "",
-              "storage": "0",
-              "varName2": "",
-              "name": "Send Message"
             }
           ]
         },
@@ -359,25 +153,6 @@
               "varName": "",
               "type": "11",
               "name": "Radio"
-            },
-            {
-              "channel": "0",
-              "varName": "",
-              "message": "Słuchasz radia **RMF-PRZEBOJE**!",
-              "buttons": [],
-              "selectMenus": [],
-              "attachments": [],
-              "embeds": [],
-              "reply": true,
-              "ephemeral": true,
-              "tts": false,
-              "overwrite": false,
-              "dontSend": false,
-              "editMessage": "0",
-              "editMessageVarName": "",
-              "storage": "0",
-              "varName2": "",
-              "name": "Send Message"
             }
           ]
         },
@@ -390,25 +165,6 @@
               "varName": "",
               "type": "12",
               "name": "Radio"
-            },
-            {
-              "channel": "0",
-              "varName": "",
-              "message": "Słuchasz radia **RMF-TOP**!",
-              "buttons": [],
-              "selectMenus": [],
-              "attachments": [],
-              "embeds": [],
-              "reply": true,
-              "ephemeral": true,
-              "tts": false,
-              "overwrite": false,
-              "dontSend": false,
-              "editMessage": "0",
-              "editMessageVarName": "",
-              "storage": "0",
-              "varName2": "",
-              "name": "Send Message"
             }
           ]
         }
