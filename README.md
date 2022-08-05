@@ -13,6 +13,7 @@
 8. ● *[Skip](https://github.com/Gotowka/rawdaty-beta/blob/main/music/skip.json)* [Music]
 9. ● *[Pause](https://github.com/Gotowka/rawdaty-beta/blob/main/music/pause.json)* [Music]
 10. ● *[Weryfikacja](https://github.com/Gotowka/rawdaty-beta/blob/main/music/weryfikacja.json)* [Other]
+11. ● *[Together](https://github.com/Gotowka/rawdaty-beta/blob/main/music/together.json)* [4Fun]
 
 
  ©️ Gotowka 2021 - 2022
