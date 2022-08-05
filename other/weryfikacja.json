@@ -1,0 +1,131 @@
+{
+    "name": "weryfikacja",
+    "permissions": "ADMINISTRATOR",
+    "permissions2": "NONE",
+    "restriction": "1",
+    "_id": "fJpck",
+    "actions": [
+      {
+        "server": "0",
+        "varName": "",
+        "info": "5",
+        "storage": "1",
+        "varName2": "icon",
+        "name": "Store Server Info"
+      },
+      {
+        "server": "0",
+        "varName": "",
+        "info": "2",
+        "storage": "1",
+        "varName2": "name",
+        "name": "Store Server Info"
+      },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "",
+        "buttons": [
+          {
+            "name": "Weryfikacja",
+            "type": "SUCCESS",
+            "id": "msg-button-232c695",
+            "row": "",
+            "url": "",
+            "emoji": "",
+            "mode": "PERSISTENT",
+            "time": "",
+            "actions": [
+              {
+                "member": "1",
+                "varName": "",
+                "info": "21",
+                "storage": "1",
+                "varName2": "tag",
+                "name": "Store Member Info"
+              },
+              {
+                "server": "0",
+                "varName": "",
+                "info": "5",
+                "storage": "1",
+                "varName2": "icon",
+                "name": "Store Server Info"
+              },
+              {
+                "server": "0",
+                "varName": "",
+                "info": "2",
+                "storage": "1",
+                "varName2": "name",
+                "name": "Store Server Info"
+              },
+              {
+                "channel": "0",
+                "varName": "",
+                "message": "**${tempVars(\"tag\")}** Zostałeś pomyślnie zweryfikowany!",
+                "buttons": [],
+                "selectMenus": [],
+                "attachments": [],
+                "embeds": [],
+                "reply": true,
+                "ephemeral": true,
+                "tts": false,
+                "overwrite": false,
+                "dontSend": false,
+                "editMessage": "0",
+                "editMessageVarName": "",
+                "storage": "0",
+                "varName2": "",
+                "name": "Send Message"
+              },
+              {
+                "time": "2",
+                "measurement": "1",
+                "name": "Wait"
+              },
+              {
+                "member": "1",
+                "varName2": "",
+                "role": "101",
+                "varName": "",
+                "reason": "Weryfikacja",
+                "name": "Add Member Role"
+              }
+            ]
+          }
+        ],
+        "selectMenus": [],
+        "attachments": [],
+        "embeds": [
+          {
+            "title": "Weryfikacja",
+            "url": "",
+            "color": "#f76363",
+            "timestamp": "false",
+            "imageUrl": "",
+            "thumbUrl": "${tempVars(\"icon\")}",
+            "description": "Aby się zweryfikować na serwerze **${tempVars(\"name\")}**. Kliknij przycisk poniżej!",
+            "fields": [],
+            "author": "",
+            "authorUrl": "",
+            "authorIcon": "",
+            "footerText": "${tempVars(\"name\")}",
+            "footerIconUrl": "${tempVars(\"icon\")}"
+          }
+        ],
+        "reply": false,
+        "ephemeral": false,
+        "tts": false,
+        "overwrite": false,
+        "dontSend": false,
+        "editMessage": "0",
+        "editMessageVarName": "",
+        "storage": "0",
+        "varName2": "",
+        "name": "Send Message"
+      }
+    ],
+    "comType": "0",
+    "description": ""
+  }

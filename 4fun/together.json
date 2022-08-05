@@ -1,0 +1,343 @@
+{
+    "name": "together",
+    "permissions": "NONE",
+    "permissions2": "NONE",
+    "restriction": "1",
+    "_id": "ZeuZd",
+    "actions": [
+      {
+        "storage": "4",
+        "varName": "together",
+        "branches": [
+          {
+            "comparison": "1",
+            "value": "youtube",
+            "actions": [
+              {
+                "together": "youtube",
+                "storage": "2",
+                "varName2": "invite",
+                "name": "Create Together"
+              }
+            ]
+          },
+          {
+            "comparison": "1",
+            "value": "spellcast",
+            "actions": [
+              {
+                "together": "spellcast",
+                "storage": "2",
+                "varName2": "invite",
+                "name": "Create Together"
+              }
+            ]
+          },
+          {
+            "comparison": "1",
+            "value": "poker",
+            "actions": [
+              {
+                "together": "poker",
+                "storage": "2",
+                "varName2": "invite",
+                "name": "Create Together"
+              }
+            ]
+          },
+          {
+            "comparison": "1",
+            "value": "szachy",
+            "actions": [
+              {
+                "together": "chess",
+                "storage": "2",
+                "varName2": "invite",
+                "name": "Create Together"
+              }
+            ]
+          },
+          {
+            "comparison": "1",
+            "value": "warcaby",
+            "actions": [
+              {
+                "together": "checkers",
+                "storage": "2",
+                "varName2": "invite",
+                "name": "Create Together"
+              }
+            ]
+          },
+          {
+            "comparison": "1",
+            "value": "fishing",
+            "actions": [
+              {
+                "together": "fishing",
+                "storage": "2",
+                "varName2": "invite",
+                "name": "Create Together"
+              }
+            ]
+          },
+          {
+            "comparison": "1",
+            "value": "sketchheads",
+            "actions": [
+              {
+                "together": "sketchheads",
+                "storage": "2",
+                "varName2": "invite",
+                "name": "Create Together"
+              }
+            ]
+          },
+          {
+            "comparison": "1",
+            "value": "wordsnack",
+            "actions": [
+              {
+                "together": "wordsnack",
+                "storage": "2",
+                "varName2": "invite",
+                "name": "Create Together"
+              }
+            ]
+          },
+          {
+            "comparison": "1",
+            "value": "awkword",
+            "actions": [
+              {
+                "together": "awkword",
+                "storage": "2",
+                "varName2": "invite",
+                "name": "Create Together"
+              }
+            ]
+          },
+          {
+            "comparison": "1",
+            "value": "letterleague",
+            "actions": [
+              {
+                "together": "lettertile",
+                "storage": "2",
+                "varName2": "invite",
+                "name": "Create Together"
+              }
+            ]
+          },
+          {
+            "comparison": "1",
+            "value": "puttparty",
+            "actions": [
+              {
+                "together": "puttparty",
+                "storage": "2",
+                "varName2": "invite",
+                "name": "Create Together"
+              }
+            ]
+          },
+          {
+            "comparison": "1",
+            "value": "bobbleleague",
+            "actions": [
+              {
+                "together": "bobble",
+                "storage": "2",
+                "varName2": "invite",
+                "name": "Create Together"
+              }
+            ]
+          },
+          {
+            "comparison": "1",
+            "value": "knowwhatimeme",
+            "actions": [
+              {
+                "together": "meme",
+                "storage": "2",
+                "varName2": "invite",
+                "name": "Create Together"
+              }
+            ]
+          },
+          {
+            "comparison": "1",
+            "value": "askaway",
+            "actions": [
+              {
+                "together": "away",
+                "storage": "2",
+                "varName2": "invite",
+                "name": "Create Together"
+              }
+            ]
+          },
+          {
+            "comparison": "1",
+            "value": "landio",
+            "actions": [
+              {
+                "together": "landio",
+                "storage": "2",
+                "varName2": "invite",
+                "name": "Create Together"
+              }
+            ]
+          }
+        ],
+        "name": "Multi-Check Variable"
+      },
+      {
+        "server": "0",
+        "varName": "",
+        "info": "5",
+        "storage": "1",
+        "varName2": "icon",
+        "name": "Store Server Info"
+      },
+      {
+        "server": "0",
+        "varName": "",
+        "info": "2",
+        "storage": "1",
+        "varName2": "name",
+        "name": "Store Server Info"
+      },
+      {
+        "member": "1",
+        "varName": "",
+        "info": "21",
+        "storage": "1",
+        "varName2": "tag",
+        "name": "Store Member Info"
+      },
+      {
+        "member": "1",
+        "varName": "",
+        "info": "16",
+        "storage": "1",
+        "varName2": "av",
+        "name": "Store Member Info"
+      },
+      {
+        "member": "1",
+        "varName": "",
+        "info": "1",
+        "storage": "1",
+        "varName2": "id",
+        "name": "Store Member Info"
+      },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "",
+        "buttons": [],
+        "selectMenus": [],
+        "attachments": [],
+        "embeds": [
+          {
+            "title": "",
+            "url": "",
+            "color": "#f76363",
+            "timestamp": "true",
+            "imageUrl": "",
+            "thumbUrl": "${tempVars(\"icon\")}",
+            "description": "**Together**\nAby zagrać w **${slashParams(\"together\")}** [kliknij](${serverVars(\"invite\")})",
+            "fields": [],
+            "author": "",
+            "authorUrl": "",
+            "authorIcon": "",
+            "footerText": "${tempVars(\"tag\")} (${tempVars(\"id\")})",
+            "footerIconUrl": "${tempVars(\"av\")}"
+          }
+        ],
+        "reply": true,
+        "ephemeral": false,
+        "tts": false,
+        "overwrite": false,
+        "dontSend": false,
+        "editMessage": "0",
+        "editMessageVarName": "",
+        "storage": "0",
+        "varName2": "",
+        "name": "Send Message"
+      }
+    ],
+    "comType": "4",
+    "description": "Stwórz wybrany przez ciebie together",
+    "parameters": [
+      {
+        "name": "together",
+        "description": "Wybierz pokój together!",
+        "type": "STRING",
+        "required": true,
+        "choices": [
+          {
+            "name": "youtube",
+            "value": "youtube"
+          },
+          {
+            "name": "spellcast",
+            "value": "spellcast"
+          },
+          {
+            "name": "poker",
+            "value": "poker"
+          },
+          {
+            "name": "szachy",
+            "value": "szachy"
+          },
+          {
+            "name": "warcaby",
+            "value": "warcaby"
+          },
+          {
+            "name": "fishing",
+            "value": "fishing"
+          },
+          {
+            "name": "sketchheads",
+            "value": "sketchheads"
+          },
+          {
+            "name": "wordsnack",
+            "value": "wordsnack"
+          },
+          {
+            "name": "awkword",
+            "value": "awkword"
+          },
+          {
+            "name": "letterleague",
+            "value": "letterleague"
+          },
+          {
+            "name": "puttparty",
+            "value": "puttparty"
+          },
+          {
+            "name": "bobbleleague",
+            "value": "bobbleleague"
+          },
+          {
+            "name": "knowwhatimeme",
+            "value": "knowwhatimeme"
+          },
+          {
+            "name": "askaway",
+            "value": "askaway"
+          },
+          {
+            "name": "landio",
+            "value": "landio"
+          }
+        ]
+      }
+    ]
+  }

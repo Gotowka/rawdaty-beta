@@ -1,0 +1,91 @@
+{
+    "name": "gend",
+    "temp": "",
+    "event-type": "1",
+    "_id": "zNjNt",
+    "actions": [
+      {
+        "style": "DANGER",
+        "label": "Udział brało [users] użytkowników",
+        "name": "Giveaway END"
+      },
+      {
+        "message": "1",
+        "varName": "message",
+        "info": "4",
+        "storage": "1",
+        "varName2": "ch",
+        "name": "Store Message Info"
+      },
+      {
+        "message": "1",
+        "varName": "message",
+        "info": "19",
+        "storage": "1",
+        "varName2": "guild",
+        "name": "Store Message Info"
+      },
+      {
+        "server": "1",
+        "varName": "guild",
+        "info": "5",
+        "storage": "1",
+        "varName2": "cc",
+        "name": "Store Server Info"
+      },
+      {
+        "channel": "5",
+        "varName": "ch",
+        "message": "",
+        "buttons": [],
+        "selectMenus": [],
+        "attachments": [],
+        "embeds": [
+          {
+            "title": "Konkurs zakończony",
+            "url": "",
+            "color": "#f76363",
+            "timestamp": "true",
+            "imageUrl": "",
+            "thumbUrl": "${tempVars(\"cc\")}",
+            "description": "**Hoster:** ${tempVars(\"hoster\")}\n**Nagroda:** ${tempVars(\"prize\")}\n**Wygrani:** ${tempVars(\"winner\")}",
+            "fields": [],
+            "author": "",
+            "authorUrl": "",
+            "authorIcon": "",
+            "footerText": "${tempVars(\"name\")}",
+            "footerIconUrl": "${tempVars(\"cc\")}"
+          }
+        ],
+        "reply": false,
+        "ephemeral": false,
+        "tts": false,
+        "overwrite": false,
+        "dontSend": false,
+        "editMessage": "1",
+        "editMessageVarName": "message",
+        "storage": "1",
+        "varName2": "tt",
+        "name": "Send Message"
+      },
+      {
+        "channel": "5",
+        "varName": "ch",
+        "message": "${tempVars(\"winner\")}, Zgłoś się w wiadomości prywatnej do ${tempVars(\"hoster\")}",
+        "buttons": [],
+        "selectMenus": [],
+        "attachments": [],
+        "embeds": [],
+        "reply": false,
+        "ephemeral": false,
+        "tts": false,
+        "overwrite": false,
+        "dontSend": false,
+        "editMessage": "0",
+        "editMessageVarName": "",
+        "storage": "0",
+        "varName2": "",
+        "name": "Send Message"
+      }
+    ]
+  }
