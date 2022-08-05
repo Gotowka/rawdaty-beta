@@ -1,0 +1,33 @@
+{
+    "name": "kolkoikrzyzyk",
+    "permissions": "NONE",
+    "permissions2": "NONE",
+    "restriction": "1",
+    "_id": "uZvQX",
+    "actions": [
+      {
+        "member": "5",
+        "varName": "member",
+        "info": "1",
+        "storage": "1",
+        "varName2": "id",
+        "name": "Store Member Info"
+      },
+      {
+        "game": "2",
+        "member": "${tempVars(\"id\")}",
+        "name": "Games"
+      }
+    ],
+    "comType": "4",
+    "description": "Zagraj w kółko i krzyżyk ",
+    "parameters": [
+      {
+        "name": "member",
+        "description": "Wybierz osobe z którą chcesz zagrać!",
+        "type": "USER",
+        "required": true,
+        "choices": null
+      }
+    ]
+}

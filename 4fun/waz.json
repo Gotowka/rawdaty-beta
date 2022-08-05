@@ -1,0 +1,17 @@
+{
+    "name": "waz",
+    "permissions": "NONE",
+    "permissions2": "NONE",
+    "restriction": "1",
+    "_id": "xQxQV",
+    "actions": [
+      {
+        "game": "1",
+        "member": "",
+        "name": "Games"
+      }
+    ],
+    "comType": "4",
+    "description": "Zagraj w wężyka",
+    "parameters": []
+}

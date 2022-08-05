@@ -1,0 +1,17 @@
+{
+    "name": "2048",
+    "permissions": "NONE",
+    "permissions2": "NONE",
+    "restriction": "1",
+    "_id": "fIRqX",
+    "actions": [
+      {
+        "game": "3",
+        "member": "",
+        "name": "Games"
+      }
+    ],
+    "comType": "4",
+    "description": "Zagraj w 2048",
+    "parameters": []
+}
