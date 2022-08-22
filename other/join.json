@@ -1,0 +1,62 @@
+{
+  "name": "join",
+  "temp": "user",
+  "event-type": "6",
+  "_id": "dPABv",
+  "actions": [
+    {
+      "member": "2",
+      "varName": "user",
+      "info": "21",
+      "storage": "1",
+      "varName2": "username",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "2",
+      "varName": "user",
+      "info": "1",
+      "storage": "1",
+      "varName2": "id",
+      "name": "Store Member Info"
+    },
+    {
+      "server": "0",
+      "varName": "",
+      "info": "35",
+      "storage": "1",
+      "varName2": "members",
+      "name": "Store Server Info"
+    },
+    {
+      "levelcard": [],
+      "text": "",
+      "style": "0",
+      "joincard": [
+        {
+          "text1": "Witaj ${tempVars(\"username\")}",
+          "text2": "Dziękujemy za dolaczenie",
+          "text3": "Na serwerze jest ${tempVars(\"members\")} osób",
+          "texth": "",
+          "background": "",
+          "channelid": "1005251469383045120",
+          "captcha": "1",
+          "name": "first",
+          "memberid": "${tempVars(\"id\")}",
+          "role": "989596742171361350"
+        }
+      ],
+      "leavecard": [],
+      "embeds": [],
+      "slevel": false,
+      "sjoin": true,
+      "stvpis": false,
+      "sleave": false,
+      "scalculator": false,
+      "language": "0",
+      "msgsend": "1",
+      "guild": "950157393508044910",
+      "name": "Systems"
+    }
+  ]
+}
