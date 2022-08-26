@@ -1,0 +1,68 @@
+{
+  "name": "suggests",
+  "permissions": "NONE",
+  "permissions2": "NONE",
+  "restriction": "1",
+  "_id": "omroY",
+  "actions": [
+    {
+      "channel": "0",
+      "varName": "",
+      "info": "1",
+      "storage": "1",
+      "varName2": "id2",
+      "name": "Store Channel Info"
+    },
+    {
+      "storage": "1",
+      "varName": "id2",
+      "comparison": "1",
+      "value": "'1005251469383045120'",
+      "branch": {
+        "iftrue": "0",
+        "iffalse": "1"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "member": "1",
+      "varName": "",
+      "info": "1",
+      "storage": "1",
+      "varName2": "id",
+      "name": "Store Member Info"
+    },
+    {
+      "message": "0",
+      "varName": "",
+      "info": "1",
+      "storage": "1",
+      "varName2": "id3",
+      "name": "Store Message Info"
+    },
+    {
+      "info": "1",
+      "infoIndex": "0",
+      "storage": "1",
+      "varName": "text",
+      "name": "Store Command Params"
+    },
+    {
+      "suggests": [
+        {
+          "suggest": "${tempVars(\"text\")}",
+          "member": "${tempVars(\"id\")}",
+          "channel": "${tempVars(\"id2\")}",
+          "name": "first",
+          "message": "${tempVars(\"id3\")}"
+        }
+      ],
+      "ssuggest": true,
+      "language": "0",
+      "admin": "989596742171361350",
+      "guild": "950157393508044910",
+      "name": "Systems2"
+    }
+  ],
+  "comType": "3"
+}
