@@ -1,0 +1,37 @@
+{
+  "name": "transcript",
+  "permissions": "NONE",
+  "permissions2": "NONE",
+  "restriction": "1",
+  "_id": "qVEpY",
+  "actions": [
+    {
+      "channe": null,
+      "varName": null,
+      "logs": "",
+      "name": "Transcript"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "Pomyślnie stworzono transcript!",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [],
+      "reply": true,
+      "ephemeral": true,
+      "tts": false,
+      "overwrite": false,
+      "mention": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    }
+  ],
+  "comType": "4",
+  "description": "Create the transcript from the current channel"
+}
