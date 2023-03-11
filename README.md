@@ -12,8 +12,9 @@
 7. ● *[Queue](https://github.com/Gotowka/rawdaty-beta/blob/main/music/queue.json)* [Music]
 8. ● *[Skip](https://github.com/Gotowka/rawdaty-beta/blob/main/music/skip.json)* [Music]
 9. ● *[Pause](https://github.com/Gotowka/rawdaty-beta/blob/main/music/pause.json)* [Music]
-10. ● *[Weryfikacja](https://github.com/Gotowka/rawdaty-beta/blob/main/music/weryfikacja.json)* [Other]
+10. ● *[Weryfikacja](https://github.com/Gotowka/rawdaty-beta/blob/main/other/weryfikacja.json)* [Other]
 11. ● *[Together](https://github.com/Gotowka/rawdaty-beta/blob/main/4fun/together.json)* [4Fun]
+12. ● *[BansList](https://github.com/Gotowka/rawdaty-beta/blob/main/other/banslist.json)* [Other]
 
 
 ©️ Gotowka 2021 - 2022
